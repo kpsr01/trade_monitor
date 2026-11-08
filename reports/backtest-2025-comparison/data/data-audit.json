@@ -1,0 +1,7284 @@
+{
+  "generatedAt": "2026-11-08T08:59:00.068Z",
+  "symbol": "^NSEI",
+  "sourceCommit": "6eb58d96bd2c963445b8ce0840b1d1a37f8ecff3",
+  "sources": [
+    {
+      "file": "NIFTY50_1min_2025.csv",
+      "url": "https://raw.githubusercontent.com/technovusin/nifty50-historical-data/6eb58d96bd2c963445b8ce0840b1d1a37f8ecff3/1min/2025/NIFTY50_1min_2025.csv",
+      "bytes": 6049092,
+      "sha256": "632eccf5137216d46ef5ad26ec975e56b0a8ceb4adfa804083d380cc3fe60b3d"
+    },
+    {
+      "file": "NIFTY50_1min_2024.csv",
+      "url": "https://raw.githubusercontent.com/technovusin/nifty50-historical-data/6eb58d96bd2c963445b8ce0840b1d1a37f8ecff3/1min/2024/NIFTY50_1min_2024.csv",
+      "bytes": 6014477,
+      "sha256": "f0a82b04aeb8722c8fae0431daf8507feb70e4c7783c75010f9dfbbbee00951b"
+    },
+    {
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/technovusin/nifty50-historical-data/6eb58d96bd2c963445b8ce0840b1d1a37f8ecff3/README.md",
+      "bytes": 3945,
+      "sha256": "6ecca5294532688c73d0a45ebc4a58d316b6c76fbafe4a5fd1d8cc2097552a12"
+    },
+    {
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/technovusin/nifty50-historical-data/6eb58d96bd2c963445b8ce0840b1d1a37f8ecff3/LICENSE",
+      "bytes": 1068,
+      "sha256": "d9e5015ab9a6908f3dd51ba9a4b8ba97d32ec8706e74f790ce3f58ff218cbd54"
+    },
+    {
+      "file": "yahoo-daily-2025.json",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?interval=1d&period1=1735669800&period2=1767292200",
+      "bytes": 23388,
+      "sha256": "912fa7a1c719beb122b4aecdf16ba91d9c75ea1c450d7c04cd0a4834ccdd690e"
+    },
+    {
+      "file": "nse-index-01012025.csv",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_01012025.csv",
+      "bytes": 13554,
+      "sha256": "95e214a0abe1c87ac5b77bce5f1cbfba7bd4c3d363177abf4ce6b6a047335901"
+    },
+    {
+      "file": "nse-index-07042025.csv",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_07042025.csv",
+      "bytes": 14928,
+      "sha256": "08d7c28ca0da200f9e06862bc1ebbe7dc0eb575cc9ba419f4ebbd10dbb2a421c"
+    },
+    {
+      "file": "nse-index-31122025.csv",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_31122025.csv",
+      "bytes": 15318,
+      "sha256": "fdb9532652fcc47a10bc4b0729bd69d7c5c4fa4227bdee36176502b6e6609c8b"
+    }
+  ],
+  "dataSha256": "a8855fd641fe99f1e6c63877e54ff61cc9f910812a5f800efa7144a684226235",
+  "year": 2025,
+  "yearCandles": 93060,
+  "yearSessions": 249,
+  "warmupFrom": "2024-12-16",
+  "warmupTo": "2024-12-31",
+  "warmupCandles": 4125,
+  "nonTradingDates": [
+    "2024-12-25",
+    "2025-02-26",
+    "2025-03-14",
+    "2025-03-31",
+    "2025-04-10",
+    "2025-04-14",
+    "2025-04-18",
+    "2025-05-01",
+    "2025-08-15",
+    "2025-08-27",
+    "2025-10-02",
+    "2025-10-22",
+    "2025-11-05",
+    "2025-12-25"
+  ],
+  "sessionOverrides": {
+    "2025-02-01": {
+      "openMinutes": 555,
+      "closeMinutes": 930
+    },
+    "2025-10-21": {
+      "openMinutes": 825,
+      "closeMinutes": 885
+    }
+  },
+  "sessions": [
+    {
+      "day": "2024-12-16",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24753.4,
+      "high": 24781.25,
+      "low": 24601.75,
+      "close": 24648.25
+    },
+    {
+      "day": "2024-12-17",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24584.8,
+      "high": 24624.1,
+      "low": 24303.45,
+      "close": 24319.35
+    },
+    {
+      "day": "2024-12-18",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24297.95,
+      "high": 24394.45,
+      "low": 24149.85,
+      "close": 24214.7
+    },
+    {
+      "day": "2024-12-19",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23877.15,
+      "high": 24004.9,
+      "low": 23870.3,
+      "close": 23961.95
+    },
+    {
+      "day": "2024-12-20",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23960.7,
+      "high": 24065.8,
+      "low": 23537.35,
+      "close": 23631.35
+    },
+    {
+      "day": "2024-12-23",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23738.2,
+      "high": 23869.55,
+      "low": 23647.2,
+      "close": 23747.2
+    },
+    {
+      "day": "2024-12-24",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23769.1,
+      "high": 23867.65,
+      "low": 23685.15,
+      "close": 23730.35
+    },
+    {
+      "day": "2024-12-26",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23775.8,
+      "high": 23854.5,
+      "low": 23653.6,
+      "close": 23760.3
+    },
+    {
+      "day": "2024-12-27",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23801.4,
+      "high": 23938.85,
+      "low": 23800.6,
+      "close": 23832.45
+    },
+    {
+      "day": "2024-12-30",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23796.9,
+      "high": 23915.35,
+      "low": 23599.3,
+      "close": 23658.65
+    },
+    {
+      "day": "2024-12-31",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23560.6,
+      "high": 23689.85,
+      "low": 23460.45,
+      "close": 23668.8
+    },
+    {
+      "day": "2025-01-01",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23637.65,
+      "high": 23822.8,
+      "low": 23562.8,
+      "close": 23758.7
+    },
+    {
+      "day": "2025-01-02",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23783,
+      "high": 24226.7,
+      "low": 23751.55,
+      "close": 24167.95
+    },
+    {
+      "day": "2025-01-03",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24196.4,
+      "high": 24196.45,
+      "low": 23976,
+      "close": 23990.15
+    },
+    {
+      "day": "2025-01-06",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24045.8,
+      "high": 24089.95,
+      "low": 23551.9,
+      "close": 23629.6
+    },
+    {
+      "day": "2025-01-07",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23679.9,
+      "high": 23795.2,
+      "low": 23637.8,
+      "close": 23694.6
+    },
+    {
+      "day": "2025-01-08",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23746.65,
+      "high": 23751.85,
+      "low": 23496.15,
+      "close": 23675.2
+    },
+    {
+      "day": "2025-01-09",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23674.75,
+      "high": 23689.5,
+      "low": 23503.05,
+      "close": 23557.2
+    },
+    {
+      "day": "2025-01-10",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23551.9,
+      "high": 23596.6,
+      "low": 23344.35,
+      "close": 23437.35
+    },
+    {
+      "day": "2025-01-13",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23195.4,
+      "high": 23340.95,
+      "low": 23047.25,
+      "close": 23088.7
+    },
+    {
+      "day": "2025-01-14",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23165.9,
+      "high": 23264.95,
+      "low": 23134.15,
+      "close": 23206.85
+    },
+    {
+      "day": "2025-01-15",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23250.45,
+      "high": 23293.65,
+      "low": 23146.45,
+      "close": 23228.1
+    },
+    {
+      "day": "2025-01-16",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23377.25,
+      "high": 23391.65,
+      "low": 23272.05,
+      "close": 23350.8
+    },
+    {
+      "day": "2025-01-17",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23277.1,
+      "high": 23292.1,
+      "low": 23100.35,
+      "close": 23203.1
+    },
+    {
+      "day": "2025-01-20",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23290.4,
+      "high": 23391.1,
+      "low": 23170.65,
+      "close": 23337.05
+    },
+    {
+      "day": "2025-01-21",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23421.65,
+      "high": 23426.3,
+      "low": 22976.85,
+      "close": 23053.05
+    },
+    {
+      "day": "2025-01-22",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23099.15,
+      "high": 23169.55,
+      "low": 22981.3,
+      "close": 23161.75
+    },
+    {
+      "day": "2025-01-23",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23128.3,
+      "high": 23270.8,
+      "low": 23090.65,
+      "close": 23216.3
+    },
+    {
+      "day": "2025-01-24",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23183.9,
+      "high": 23347.3,
+      "low": 23050,
+      "close": 23090.35
+    },
+    {
+      "day": "2025-01-27",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22940.15,
+      "high": 23007.45,
+      "low": 22786.9,
+      "close": 22816.85
+    },
+    {
+      "day": "2025-01-28",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22960.45,
+      "high": 23137.95,
+      "low": 22857.65,
+      "close": 22976.3
+    },
+    {
+      "day": "2025-01-29",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23026.75,
+      "high": 23183.35,
+      "low": 22976.5,
+      "close": 23176.2
+    },
+    {
+      "day": "2025-01-30",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23169.5,
+      "high": 23322.05,
+      "low": 23139.2,
+      "close": 23297.95
+    },
+    {
+      "day": "2025-01-31",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23296.75,
+      "high": 23546.8,
+      "low": 23277.4,
+      "close": 23533.85
+    },
+    {
+      "day": "2025-02-01",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23528.6,
+      "high": 23632.45,
+      "low": 23318.3,
+      "close": 23495.3
+    },
+    {
+      "day": "2025-02-03",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23319.35,
+      "high": 23381.6,
+      "low": 23222,
+      "close": 23359.7
+    },
+    {
+      "day": "2025-02-04",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23509.9,
+      "high": 23762.75,
+      "low": 23423.15,
+      "close": 23707.7
+    },
+    {
+      "day": "2025-02-05",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23801.75,
+      "high": 23807.3,
+      "low": 23680.45,
+      "close": 23686.75
+    },
+    {
+      "day": "2025-02-06",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23761.95,
+      "high": 23773.55,
+      "low": 23556.25,
+      "close": 23628.05
+    },
+    {
+      "day": "2025-02-07",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23649.5,
+      "high": 23694.5,
+      "low": 23443.2,
+      "close": 23563.15
+    },
+    {
+      "day": "2025-02-10",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23543.8,
+      "high": 23568.6,
+      "low": 23316.3,
+      "close": 23376.05
+    },
+    {
+      "day": "2025-02-11",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23383.55,
+      "high": 23390.05,
+      "low": 22986.65,
+      "close": 23070.5
+    },
+    {
+      "day": "2025-02-12",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23050.8,
+      "high": 23144.7,
+      "low": 22798.35,
+      "close": 23057.8
+    },
+    {
+      "day": "2025-02-13",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23055.75,
+      "high": 23235.5,
+      "low": 22992.2,
+      "close": 23019.4
+    },
+    {
+      "day": "2025-02-14",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23096.45,
+      "high": 23133.7,
+      "low": 22774.85,
+      "close": 22897.25
+    },
+    {
+      "day": "2025-02-17",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22809.9,
+      "high": 22974.2,
+      "low": 22725.45,
+      "close": 22963.5
+    },
+    {
+      "day": "2025-02-18",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22963.65,
+      "high": 22992.5,
+      "low": 22801.5,
+      "close": 22923.15
+    },
+    {
+      "day": "2025-02-19",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22847.25,
+      "high": 23049.95,
+      "low": 22814.85,
+      "close": 22914.4
+    },
+    {
+      "day": "2025-02-20",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22821.1,
+      "high": 22923.85,
+      "low": 22812.75,
+      "close": 22906.25
+    },
+    {
+      "day": "2025-02-21",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22857.2,
+      "high": 22921,
+      "low": 22720.3,
+      "close": 22764.35
+    },
+    {
+      "day": "2025-02-24",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22609.35,
+      "high": 22668.05,
+      "low": 22518.8,
+      "close": 22549.75
+    },
+    {
+      "day": "2025-02-25",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22516.45,
+      "high": 22625.3,
+      "low": 22513.9,
+      "close": 22526.3
+    },
+    {
+      "day": "2025-02-27",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22568.95,
+      "high": 22613.3,
+      "low": 22508.4,
+      "close": 22510.85
+    },
+    {
+      "day": "2025-02-28",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22433.4,
+      "high": 22450.35,
+      "low": 22104.85,
+      "close": 22127.4
+    },
+    {
+      "day": "2025-03-03",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22194.55,
+      "high": 22261.55,
+      "low": 22004.7,
+      "close": 22143.15
+    },
+    {
+      "day": "2025-03-04",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 21974.45,
+      "high": 22105.05,
+      "low": 21964.6,
+      "close": 22080.3
+    },
+    {
+      "day": "2025-03-05",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22073.05,
+      "high": 22394.9,
+      "low": 22067.8,
+      "close": 22346.65
+    },
+    {
+      "day": "2025-03-06",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22476.35,
+      "high": 22556.45,
+      "low": 22245.85,
+      "close": 22529.2
+    },
+    {
+      "day": "2025-03-07",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22508.65,
+      "high": 22633.8,
+      "low": 22464.75,
+      "close": 22536.95
+    },
+    {
+      "day": "2025-03-10",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22521.85,
+      "high": 22676.75,
+      "low": 22429.05,
+      "close": 22441.1
+    },
+    {
+      "day": "2025-03-11",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22345.95,
+      "high": 22522.1,
+      "low": 22314.7,
+      "close": 22520.5
+    },
+    {
+      "day": "2025-03-12",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22536.35,
+      "high": 22577.4,
+      "low": 22329.55,
+      "close": 22468.5
+    },
+    {
+      "day": "2025-03-13",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22541.5,
+      "high": 22558.05,
+      "low": 22377.35,
+      "close": 22383.3
+    },
+    {
+      "day": "2025-03-17",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22353.15,
+      "high": 22577,
+      "low": 22353.15,
+      "close": 22515.25
+    },
+    {
+      "day": "2025-03-18",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22662.25,
+      "high": 22857.8,
+      "low": 22599.2,
+      "close": 22848.75
+    },
+    {
+      "day": "2025-03-19",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22874.95,
+      "high": 22940.7,
+      "low": 22807.95,
+      "close": 22911.8
+    },
+    {
+      "day": "2025-03-20",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23036.6,
+      "high": 23216.7,
+      "low": 22973.95,
+      "close": 23165.7
+    },
+    {
+      "day": "2025-03-21",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23168.25,
+      "high": 23402.7,
+      "low": 23132.8,
+      "close": 23355.65
+    },
+    {
+      "day": "2025-03-24",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23515.4,
+      "high": 23708.75,
+      "low": 23433.5,
+      "close": 23674.15
+    },
+    {
+      "day": "2025-03-25",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23752.85,
+      "high": 23869.6,
+      "low": 23601.4,
+      "close": 23605.95
+    },
+    {
+      "day": "2025-03-26",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23700.95,
+      "high": 23736.5,
+      "low": 23451.7,
+      "close": 23464.3
+    },
+    {
+      "day": "2025-03-27",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23433.95,
+      "high": 23646.45,
+      "low": 23412.2,
+      "close": 23601.05
+    },
+    {
+      "day": "2025-03-28",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23600.4,
+      "high": 23649.2,
+      "low": 23450.2,
+      "close": 23495.15
+    },
+    {
+      "day": "2025-04-01",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23341.1,
+      "high": 23565.15,
+      "low": 23136.4,
+      "close": 23179.7
+    },
+    {
+      "day": "2025-04-02",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23192.6,
+      "high": 23350,
+      "low": 23158.45,
+      "close": 23330.8
+    },
+    {
+      "day": "2025-04-03",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23150.3,
+      "high": 23306.5,
+      "low": 23145.8,
+      "close": 23241.6
+    },
+    {
+      "day": "2025-04-04",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23190.4,
+      "high": 23214.7,
+      "low": 22857.45,
+      "close": 22912.05
+    },
+    {
+      "day": "2025-04-07",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 21758.4,
+      "high": 22254,
+      "low": 21743.65,
+      "close": 22238
+    },
+    {
+      "day": "2025-04-08",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22446.75,
+      "high": 22697.2,
+      "low": 22270.85,
+      "close": 22547.2
+    },
+    {
+      "day": "2025-04-09",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22460.3,
+      "high": 22468.7,
+      "low": 22353.25,
+      "close": 22420.4
+    },
+    {
+      "day": "2025-04-11",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 22695.4,
+      "high": 22923.9,
+      "low": 22695.4,
+      "close": 22844.5
+    },
+    {
+      "day": "2025-04-15",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23368.35,
+      "high": 23368.35,
+      "low": 23207,
+      "close": 23344.1
+    },
+    {
+      "day": "2025-04-16",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23344.1,
+      "high": 23452.2,
+      "low": 23273.05,
+      "close": 23433.3
+    },
+    {
+      "day": "2025-04-17",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23401.85,
+      "high": 23872.35,
+      "low": 23298.55,
+      "close": 23837.75
+    },
+    {
+      "day": "2025-04-21",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23949.15,
+      "high": 24189.55,
+      "low": 23903.65,
+      "close": 24121.2
+    },
+    {
+      "day": "2025-04-22",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24185.4,
+      "high": 24242.6,
+      "low": 24072,
+      "close": 24134.05
+    },
+    {
+      "day": "2025-04-23",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24357.6,
+      "high": 24359.3,
+      "low": 24119.95,
+      "close": 24300.85
+    },
+    {
+      "day": "2025-04-24",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24277.9,
+      "high": 24347.85,
+      "low": 24216.15,
+      "close": 24245.05
+    },
+    {
+      "day": "2025-04-25",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24289,
+      "high": 24365.45,
+      "low": 23847.85,
+      "close": 23991.65
+    },
+    {
+      "day": "2025-04-28",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24070.25,
+      "high": 24355.1,
+      "low": 24054.05,
+      "close": 24312.9
+    },
+    {
+      "day": "2025-04-29",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24370.7,
+      "high": 24457.65,
+      "low": 24290.75,
+      "close": 24325.45
+    },
+    {
+      "day": "2025-04-30",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24342.05,
+      "high": 24396.15,
+      "low": 24198.75,
+      "close": 24243.45
+    },
+    {
+      "day": "2025-05-02",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24311.9,
+      "high": 24589.15,
+      "low": 24238.5,
+      "close": 24313.65
+    },
+    {
+      "day": "2025-05-05",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24419.5,
+      "high": 24526.4,
+      "low": 24400.65,
+      "close": 24459.5
+    },
+    {
+      "day": "2025-05-06",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24500.75,
+      "high": 24509.65,
+      "low": 24331.8,
+      "close": 24335.9
+    },
+    {
+      "day": "2025-05-07",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24233.3,
+      "high": 24449.6,
+      "low": 24220,
+      "close": 24409.3
+    },
+    {
+      "day": "2025-05-08",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24431.5,
+      "high": 24447.25,
+      "low": 24150.2,
+      "close": 24154.1
+    },
+    {
+      "day": "2025-05-09",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 23935.75,
+      "high": 24164.25,
+      "low": 23935.75,
+      "close": 24038.65
+    },
+    {
+      "day": "2025-05-12",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24420.1,
+      "high": 24944.8,
+      "low": 24378.85,
+      "close": 24920.25
+    },
+    {
+      "day": "2025-05-13",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24864.05,
+      "high": 24973.8,
+      "low": 24547.5,
+      "close": 24592.25
+    },
+    {
+      "day": "2025-05-14",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24613.8,
+      "high": 24767.55,
+      "low": 24535.55,
+      "close": 24685.75
+    },
+    {
+      "day": "2025-05-15",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24694.45,
+      "high": 25116.25,
+      "low": 24494.45,
+      "close": 25035.3
+    },
+    {
+      "day": "2025-05-16",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25064.65,
+      "high": 25070,
+      "low": 24953.05,
+      "close": 25013.1
+    },
+    {
+      "day": "2025-05-19",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25005.35,
+      "high": 25062.95,
+      "low": 24916.65,
+      "close": 24935.35
+    },
+    {
+      "day": "2025-05-20",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24996.2,
+      "high": 25010.35,
+      "low": 24669.7,
+      "close": 24713.85
+    },
+    {
+      "day": "2025-05-21",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24744.25,
+      "high": 24946.2,
+      "low": 24685.35,
+      "close": 24800.95
+    },
+    {
+      "day": "2025-05-22",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24733.95,
+      "high": 24737.5,
+      "low": 24462.4,
+      "close": 24637
+    },
+    {
+      "day": "2025-05-23",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24639.5,
+      "high": 24909.05,
+      "low": 24614.05,
+      "close": 24845.15
+    },
+    {
+      "day": "2025-05-26",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24919.35,
+      "high": 25079.2,
+      "low": 24900.5,
+      "close": 24996.35
+    },
+    {
+      "day": "2025-05-27",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24956.65,
+      "high": 25062.9,
+      "low": 24704.1,
+      "close": 24837.7
+    },
+    {
+      "day": "2025-05-28",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24832.5,
+      "high": 24864.25,
+      "low": 24737.05,
+      "close": 24757.15
+    },
+    {
+      "day": "2025-05-29",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24825.1,
+      "high": 24892.6,
+      "low": 24677.3,
+      "close": 24880.85
+    },
+    {
+      "day": "2025-05-30",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24812.6,
+      "high": 24863.95,
+      "low": 24717.4,
+      "close": 24736.65
+    },
+    {
+      "day": "2025-06-02",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24669.7,
+      "high": 24754.4,
+      "low": 24526.15,
+      "close": 24690.7
+    },
+    {
+      "day": "2025-06-03",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24786.3,
+      "high": 24845.1,
+      "low": 24502.15,
+      "close": 24538.4
+    },
+    {
+      "day": "2025-06-04",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24560.45,
+      "high": 24644.25,
+      "low": 24530.45,
+      "close": 24612
+    },
+    {
+      "day": "2025-06-05",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24691.2,
+      "high": 24899.85,
+      "low": 24613.1,
+      "close": 24761.1
+    },
+    {
+      "day": "2025-06-06",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24748.7,
+      "high": 25029.5,
+      "low": 24671.45,
+      "close": 25000.3
+    },
+    {
+      "day": "2025-06-09",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25160.1,
+      "high": 25160.1,
+      "low": 25077.15,
+      "close": 25103.1
+    },
+    {
+      "day": "2025-06-10",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25196.05,
+      "high": 25199.3,
+      "low": 25055.45,
+      "close": 25091.5
+    },
+    {
+      "day": "2025-06-11",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25134.15,
+      "high": 25222.4,
+      "low": 25081.3,
+      "close": 25126.8
+    },
+    {
+      "day": "2025-06-12",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25164.45,
+      "high": 25196.2,
+      "low": 24825.9,
+      "close": 24856
+    },
+    {
+      "day": "2025-06-13",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24473,
+      "high": 24754.35,
+      "low": 24473,
+      "close": 24735.55
+    },
+    {
+      "day": "2025-06-16",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24732.35,
+      "high": 24967.1,
+      "low": 24703.6,
+      "close": 24940.95
+    },
+    {
+      "day": "2025-06-17",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24977.85,
+      "high": 24982.05,
+      "low": 24813.7,
+      "close": 24841.5
+    },
+    {
+      "day": "2025-06-18",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24788.35,
+      "high": 24947.55,
+      "low": 24750.45,
+      "close": 24798.75
+    },
+    {
+      "day": "2025-06-19",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24803.25,
+      "high": 24863.1,
+      "low": 24733.4,
+      "close": 24744.7
+    },
+    {
+      "day": "2025-06-20",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24787.65,
+      "high": 25136.2,
+      "low": 24783.65,
+      "close": 25079.75
+    },
+    {
+      "day": "2025-06-23",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24939.75,
+      "high": 25057,
+      "low": 24824.85,
+      "close": 24958.9
+    },
+    {
+      "day": "2025-06-24",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25179.9,
+      "high": 25317.7,
+      "low": 24999.7,
+      "close": 25071.55
+    },
+    {
+      "day": "2025-06-25",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25150.35,
+      "high": 25266.8,
+      "low": 25125.05,
+      "close": 25236.35
+    },
+    {
+      "day": "2025-06-26",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25268.95,
+      "high": 25565.3,
+      "low": 25259.9,
+      "close": 25530.4
+    },
+    {
+      "day": "2025-06-27",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25576.65,
+      "high": 25654.2,
+      "low": 25523.55,
+      "close": 25632.45
+    },
+    {
+      "day": "2025-06-30",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25661.65,
+      "high": 25669.35,
+      "low": 25473.3,
+      "close": 25507.45
+    },
+    {
+      "day": "2025-07-01",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25551.35,
+      "high": 25593.4,
+      "low": 25501.8,
+      "close": 25533
+    },
+    {
+      "day": "2025-07-02",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25588.3,
+      "high": 25608.1,
+      "low": 25378.75,
+      "close": 25442.85
+    },
+    {
+      "day": "2025-07-03",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25505.1,
+      "high": 25587.5,
+      "low": 25384.35,
+      "close": 25397.4
+    },
+    {
+      "day": "2025-07-04",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25428.85,
+      "high": 25470.25,
+      "low": 25331.65,
+      "close": 25467.8
+    },
+    {
+      "day": "2025-07-07",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25450.45,
+      "high": 25489.8,
+      "low": 25407.25,
+      "close": 25454.95
+    },
+    {
+      "day": "2025-07-08",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25427.85,
+      "high": 25548.05,
+      "low": 25424.15,
+      "close": 25523.1
+    },
+    {
+      "day": "2025-07-09",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25514.6,
+      "high": 25548.7,
+      "low": 25424.35,
+      "close": 25464.65
+    },
+    {
+      "day": "2025-07-10",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25511.65,
+      "high": 25524.05,
+      "low": 25340.45,
+      "close": 25348.15
+    },
+    {
+      "day": "2025-07-11",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25255.5,
+      "high": 25322.45,
+      "low": 25129,
+      "close": 25140.55
+    },
+    {
+      "day": "2025-07-14",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25149.5,
+      "high": 25151.1,
+      "low": 25001.95,
+      "close": 25087.1
+    },
+    {
+      "day": "2025-07-15",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25089.5,
+      "high": 25245.2,
+      "low": 25088.45,
+      "close": 25219.65
+    },
+    {
+      "day": "2025-07-16",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25196.6,
+      "high": 25255.3,
+      "low": 25121.05,
+      "close": 25198.55
+    },
+    {
+      "day": "2025-07-17",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25230.75,
+      "high": 25238.35,
+      "low": 25101,
+      "close": 25109.5
+    },
+    {
+      "day": "2025-07-18",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25108.55,
+      "high": 25144.6,
+      "low": 24918.65,
+      "close": 24967.45
+    },
+    {
+      "day": "2025-07-21",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24999,
+      "high": 25111.4,
+      "low": 24882.3,
+      "close": 25093.3
+    },
+    {
+      "day": "2025-07-22",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25166.65,
+      "high": 25182,
+      "low": 25035.55,
+      "close": 25064.9
+    },
+    {
+      "day": "2025-07-23",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25139.35,
+      "high": 25233.5,
+      "low": 25085.5,
+      "close": 25209.2
+    },
+    {
+      "day": "2025-07-24",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25243.3,
+      "high": 25246.25,
+      "low": 25018.7,
+      "close": 25051.9
+    },
+    {
+      "day": "2025-07-25",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25010.35,
+      "high": 25010.35,
+      "low": 24806.35,
+      "close": 24832.2
+    },
+    {
+      "day": "2025-07-28",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24782.45,
+      "high": 24889.2,
+      "low": 24646.6,
+      "close": 24673.95
+    },
+    {
+      "day": "2025-07-29",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24609.65,
+      "high": 24847.15,
+      "low": 24598.6,
+      "close": 24830.4
+    },
+    {
+      "day": "2025-07-30",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24890.4,
+      "high": 24902.3,
+      "low": 24771.95,
+      "close": 24844.55
+    },
+    {
+      "day": "2025-07-31",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24642.25,
+      "high": 24956.5,
+      "low": 24635,
+      "close": 24765.6
+    },
+    {
+      "day": "2025-08-01",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24734.9,
+      "high": 24784.15,
+      "low": 24535.05,
+      "close": 24572.15
+    },
+    {
+      "day": "2025-08-04",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24596.05,
+      "high": 24736.25,
+      "low": 24554,
+      "close": 24726.9
+    },
+    {
+      "day": "2025-08-05",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24720.25,
+      "high": 24733.1,
+      "low": 24590.3,
+      "close": 24649.5
+    },
+    {
+      "day": "2025-08-06",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24641.35,
+      "high": 24671.4,
+      "low": 24539.2,
+      "close": 24569.6
+    },
+    {
+      "day": "2025-08-07",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24464.2,
+      "high": 24634.2,
+      "low": 24344.15,
+      "close": 24626.65
+    },
+    {
+      "day": "2025-08-08",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24544.25,
+      "high": 24585.5,
+      "low": 24337.5,
+      "close": 24350.85
+    },
+    {
+      "day": "2025-08-11",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24371.5,
+      "high": 24600.85,
+      "low": 24347.45,
+      "close": 24562.15
+    },
+    {
+      "day": "2025-08-12",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24563.35,
+      "high": 24702.6,
+      "low": 24465.65,
+      "close": 24485.85
+    },
+    {
+      "day": "2025-08-13",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24586.2,
+      "high": 24664.55,
+      "low": 24535.25,
+      "close": 24630.4
+    },
+    {
+      "day": "2025-08-14",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24607.25,
+      "high": 24673.65,
+      "low": 24596.9,
+      "close": 24616.05
+    },
+    {
+      "day": "2025-08-18",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24938.2,
+      "high": 25022,
+      "low": 24852.85,
+      "close": 24884.05
+    },
+    {
+      "day": "2025-08-19",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24891.35,
+      "high": 25012.65,
+      "low": 24873.95,
+      "close": 24989.7
+    },
+    {
+      "day": "2025-08-20",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24965.8,
+      "high": 25088.7,
+      "low": 24929.7,
+      "close": 25047.15
+    },
+    {
+      "day": "2025-08-21",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25142,
+      "high": 25153.65,
+      "low": 25054.9,
+      "close": 25076.95
+    },
+    {
+      "day": "2025-08-22",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25064.15,
+      "high": 25084.85,
+      "low": 24859.15,
+      "close": 24869.45
+    },
+    {
+      "day": "2025-08-25",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24949.15,
+      "high": 25021.55,
+      "low": 24894.35,
+      "close": 24978.55
+    },
+    {
+      "day": "2025-08-26",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24899.5,
+      "high": 24919.65,
+      "low": 24689.6,
+      "close": 24710.7
+    },
+    {
+      "day": "2025-08-28",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24695.8,
+      "high": 24702.65,
+      "low": 24481.6,
+      "close": 24533.1
+    },
+    {
+      "day": "2025-08-29",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24466.7,
+      "high": 24572.45,
+      "low": 24404.7,
+      "close": 24433.65
+    },
+    {
+      "day": "2025-09-01",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24432.7,
+      "high": 24635.6,
+      "low": 24432.7,
+      "close": 24624.3
+    },
+    {
+      "day": "2025-09-02",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24653,
+      "high": 24756.1,
+      "low": 24522.35,
+      "close": 24575
+    },
+    {
+      "day": "2025-09-03",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24616.5,
+      "high": 24737.05,
+      "low": 24533.2,
+      "close": 24713.6
+    },
+    {
+      "day": "2025-09-04",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24980.75,
+      "high": 24980.75,
+      "low": 24708.2,
+      "close": 24739.8
+    },
+    {
+      "day": "2025-09-05",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24818.85,
+      "high": 24832.35,
+      "low": 24621.6,
+      "close": 24743.95
+    },
+    {
+      "day": "2025-09-08",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24802.6,
+      "high": 24885.5,
+      "low": 24751.55,
+      "close": 24791.2
+    },
+    {
+      "day": "2025-09-09",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24864.1,
+      "high": 24891.8,
+      "low": 24814,
+      "close": 24878.8
+    },
+    {
+      "day": "2025-09-10",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24991,
+      "high": 25035.7,
+      "low": 24915.05,
+      "close": 24977.55
+    },
+    {
+      "day": "2025-09-11",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24945.5,
+      "high": 25037.3,
+      "low": 24940.15,
+      "close": 25008.1
+    },
+    {
+      "day": "2025-09-12",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25074.45,
+      "high": 25139.45,
+      "low": 25038.05,
+      "close": 25107.7
+    },
+    {
+      "day": "2025-09-15",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25118.9,
+      "high": 25138.45,
+      "low": 25048.75,
+      "close": 25069.7
+    },
+    {
+      "day": "2025-09-16",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25073.6,
+      "high": 25261.4,
+      "low": 25070.45,
+      "close": 25254.45
+    },
+    {
+      "day": "2025-09-17",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25276.6,
+      "high": 25346.5,
+      "low": 25275.35,
+      "close": 25330.15
+    },
+    {
+      "day": "2025-09-18",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25441.05,
+      "high": 25448.95,
+      "low": 25329.75,
+      "close": 25420.75
+    },
+    {
+      "day": "2025-09-19",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25410.2,
+      "high": 25428.75,
+      "low": 25286.3,
+      "close": 25352.5
+    },
+    {
+      "day": "2025-09-22",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25238.1,
+      "high": 25331.7,
+      "low": 25151.05,
+      "close": 25200.2
+    },
+    {
+      "day": "2025-09-23",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25209,
+      "high": 25261.9,
+      "low": 25084.65,
+      "close": 25184.9
+    },
+    {
+      "day": "2025-09-24",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25108.75,
+      "high": 25149.85,
+      "low": 25027.45,
+      "close": 25060.9
+    },
+    {
+      "day": "2025-09-25",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25034.5,
+      "high": 25092.7,
+      "low": 24878.3,
+      "close": 24904.55
+    },
+    {
+      "day": "2025-09-26",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24818.55,
+      "high": 24868.6,
+      "low": 24629.45,
+      "close": 24673.1
+    },
+    {
+      "day": "2025-09-29",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24728.55,
+      "high": 24791.3,
+      "low": 24606.2,
+      "close": 24677.55
+    },
+    {
+      "day": "2025-09-30",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24691.95,
+      "high": 24731.8,
+      "low": 24587.7,
+      "close": 24633.6
+    },
+    {
+      "day": "2025-10-01",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24620.55,
+      "high": 24867.95,
+      "low": 24605.95,
+      "close": 24853.4
+    },
+    {
+      "day": "2025-10-03",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24759.55,
+      "high": 24904.8,
+      "low": 24747.55,
+      "close": 24895
+    },
+    {
+      "day": "2025-10-06",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 24916.55,
+      "high": 25095.95,
+      "low": 24881.65,
+      "close": 25072.55
+    },
+    {
+      "day": "2025-10-07",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25085.3,
+      "high": 25220.9,
+      "low": 25076.3,
+      "close": 25112.8
+    },
+    {
+      "day": "2025-10-08",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25079.75,
+      "high": 25192.5,
+      "low": 25008.5,
+      "close": 25023.8
+    },
+    {
+      "day": "2025-10-09",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25074.3,
+      "high": 25199.25,
+      "low": 25024.3,
+      "close": 25170.3
+    },
+    {
+      "day": "2025-10-10",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25167.65,
+      "high": 25330.75,
+      "low": 25156.85,
+      "close": 25278.2
+    },
+    {
+      "day": "2025-10-13",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25177.3,
+      "high": 25267.3,
+      "low": 25152.3,
+      "close": 25237.15
+    },
+    {
+      "day": "2025-10-14",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25277.55,
+      "high": 25310.35,
+      "low": 25060.55,
+      "close": 25123.35
+    },
+    {
+      "day": "2025-10-15",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25181.95,
+      "high": 25365.15,
+      "low": 25159.35,
+      "close": 25327.75
+    },
+    {
+      "day": "2025-10-16",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25394.9,
+      "high": 25625.4,
+      "low": 25376.85,
+      "close": 25566.3
+    },
+    {
+      "day": "2025-10-17",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25546.85,
+      "high": 25781.5,
+      "low": 25508.6,
+      "close": 25704.7
+    },
+    {
+      "day": "2025-10-20",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25824.6,
+      "high": 25926.2,
+      "low": 25788.5,
+      "close": 25850.7
+    },
+    {
+      "day": "2025-10-21",
+      "count": 60,
+      "openMinutes": 825,
+      "closeMinutes": 885,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25901.2,
+      "high": 25934.35,
+      "low": 25826.3,
+      "close": 25833.3
+    },
+    {
+      "day": "2025-10-23",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26057.2,
+      "high": 26104.2,
+      "low": 25862.45,
+      "close": 25870.3
+    },
+    {
+      "day": "2025-10-24",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25935.1,
+      "high": 25944.15,
+      "low": 25718.2,
+      "close": 25797.45
+    },
+    {
+      "day": "2025-10-27",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25843.2,
+      "high": 26005.95,
+      "low": 25827,
+      "close": 25974
+    },
+    {
+      "day": "2025-10-28",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25939.95,
+      "high": 26041.7,
+      "low": 25810.05,
+      "close": 25965.4
+    },
+    {
+      "day": "2025-10-29",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25982,
+      "high": 26097.85,
+      "low": 25960.3,
+      "close": 26068.3
+    },
+    {
+      "day": "2025-10-30",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25984.4,
+      "high": 26032.05,
+      "low": 25845.25,
+      "close": 25891.2
+    },
+    {
+      "day": "2025-10-31",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25863.8,
+      "high": 25953.75,
+      "low": 25711.2,
+      "close": 25732.55
+    },
+    {
+      "day": "2025-11-03",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25696.85,
+      "high": 25803.1,
+      "low": 25645.5,
+      "close": 25774.3
+    },
+    {
+      "day": "2025-11-04",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25744.75,
+      "high": 25787.4,
+      "low": 25578.4,
+      "close": 25586.25
+    },
+    {
+      "day": "2025-11-06",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25593.35,
+      "high": 25679.15,
+      "low": 25491.55,
+      "close": 25519.95
+    },
+    {
+      "day": "2025-11-07",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25433.8,
+      "high": 25551.25,
+      "low": 25318.45,
+      "close": 25510.8
+    },
+    {
+      "day": "2025-11-10",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25503.5,
+      "high": 25653.45,
+      "low": 25503.5,
+      "close": 25574.25
+    },
+    {
+      "day": "2025-11-11",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25617,
+      "high": 25715.8,
+      "low": 25449.25,
+      "close": 25705.55
+    },
+    {
+      "day": "2025-11-12",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25834.3,
+      "high": 25934.55,
+      "low": 25781.15,
+      "close": 25874
+    },
+    {
+      "day": "2025-11-13",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25906.1,
+      "high": 26010.7,
+      "low": 25808.4,
+      "close": 25884.1
+    },
+    {
+      "day": "2025-11-14",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25767.9,
+      "high": 25940.2,
+      "low": 25740.8,
+      "close": 25916.8
+    },
+    {
+      "day": "2025-11-17",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25948.2,
+      "high": 26024.2,
+      "low": 25906.35,
+      "close": 26014.3
+    },
+    {
+      "day": "2025-11-18",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26021.8,
+      "high": 26029.85,
+      "low": 25876.5,
+      "close": 25894.7
+    },
+    {
+      "day": "2025-11-19",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25918.1,
+      "high": 26074.65,
+      "low": 25856.2,
+      "close": 26052.7
+    },
+    {
+      "day": "2025-11-20",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26132.1,
+      "high": 26246.65,
+      "low": 26063.2,
+      "close": 26197.4
+    },
+    {
+      "day": "2025-11-21",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26109.55,
+      "high": 26179.2,
+      "low": 26052.2,
+      "close": 26063.95
+    },
+    {
+      "day": "2025-11-24",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26122.8,
+      "high": 26142.8,
+      "low": 25912.15,
+      "close": 25943.35
+    },
+    {
+      "day": "2025-11-25",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25998.5,
+      "high": 26032.6,
+      "low": 25857.5,
+      "close": 25860.3
+    },
+    {
+      "day": "2025-11-26",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25842.95,
+      "high": 26215.15,
+      "low": 25842.95,
+      "close": 26202.7
+    },
+    {
+      "day": "2025-11-27",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26261.25,
+      "high": 26310.45,
+      "low": 26141.9,
+      "close": 26219.85
+    },
+    {
+      "day": "2025-11-28",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26237.45,
+      "high": 26280.75,
+      "low": 26172.4,
+      "close": 26204.55
+    },
+    {
+      "day": "2025-12-01",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26325.8,
+      "high": 26325.8,
+      "low": 26124.2,
+      "close": 26175.95
+    },
+    {
+      "day": "2025-12-02",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26087.95,
+      "high": 26154.6,
+      "low": 25997.85,
+      "close": 26057
+    },
+    {
+      "day": "2025-12-03",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26004.9,
+      "high": 26066.45,
+      "low": 25891,
+      "close": 25985.1
+    },
+    {
+      "day": "2025-12-04",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25981.85,
+      "high": 26098.25,
+      "low": 25938.95,
+      "close": 26017.1
+    },
+    {
+      "day": "2025-12-05",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25999.8,
+      "high": 26202.6,
+      "low": 25985.35,
+      "close": 26176.65
+    },
+    {
+      "day": "2025-12-08",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26159.8,
+      "high": 26178.7,
+      "low": 25892.25,
+      "close": 25932.8
+    },
+    {
+      "day": "2025-12-09",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25867.1,
+      "high": 25923.65,
+      "low": 25728,
+      "close": 25841.75
+    },
+    {
+      "day": "2025-12-10",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25864.05,
+      "high": 25947.65,
+      "low": 25734.55,
+      "close": 25742.65
+    },
+    {
+      "day": "2025-12-11",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25771.4,
+      "high": 25922.8,
+      "low": 25693.25,
+      "close": 25898.4
+    },
+    {
+      "day": "2025-12-12",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25971.2,
+      "high": 26057.6,
+      "low": 25938.45,
+      "close": 26043
+    },
+    {
+      "day": "2025-12-15",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25930.05,
+      "high": 26047.15,
+      "low": 25904.75,
+      "close": 26014
+    },
+    {
+      "day": "2025-12-16",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25951.5,
+      "high": 25980.75,
+      "low": 25834.35,
+      "close": 25851.35
+    },
+    {
+      "day": "2025-12-17",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25902.4,
+      "high": 25929.15,
+      "low": 25770.35,
+      "close": 25822.65
+    },
+    {
+      "day": "2025-12-18",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25764.7,
+      "high": 25902.35,
+      "low": 25726.3,
+      "close": 25815.65
+    },
+    {
+      "day": "2025-12-19",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25911.5,
+      "high": 25993.35,
+      "low": 25880.45,
+      "close": 25961.4
+    },
+    {
+      "day": "2025-12-22",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26055.85,
+      "high": 26180.7,
+      "low": 26047.8,
+      "close": 26162.75
+    },
+    {
+      "day": "2025-12-23",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26205.2,
+      "high": 26233.55,
+      "low": 26119.05,
+      "close": 26165.95
+    },
+    {
+      "day": "2025-12-24",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26170.65,
+      "high": 26236.4,
+      "low": 26123,
+      "close": 26141.65
+    },
+    {
+      "day": "2025-12-26",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26121.25,
+      "high": 26144.2,
+      "low": 26008.6,
+      "close": 26047.65
+    },
+    {
+      "day": "2025-12-29",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 26063.35,
+      "high": 26106.8,
+      "low": 25920.3,
+      "close": 25949.8
+    },
+    {
+      "day": "2025-12-30",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25940.9,
+      "high": 25976.75,
+      "low": 25878,
+      "close": 25970.55
+    },
+    {
+      "day": "2025-12-31",
+      "count": 375,
+      "openMinutes": 555,
+      "closeMinutes": 930,
+      "missing": [],
+      "unexpected": [],
+      "longestFlat": 0,
+      "open": 25971.05,
+      "high": 26187.95,
+      "low": 25969,
+      "close": 26141.85
+    }
+  ],
+  "missingDays": [],
+  "extraDays": [],
+  "dailyChecks": [
+    {
+      "day": "2025-01-01",
+      "daily": {
+        "open": 23637.650390625,
+        "high": 23822.80078125,
+        "low": 23562.80078125,
+        "close": 23742.900390625
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": 15.799609375000728
+      }
+    },
+    {
+      "day": "2025-01-02",
+      "daily": {
+        "open": 23783,
+        "high": 24226.69921875,
+        "low": 23751.55078125,
+        "close": 24188.650390625
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": -20.700390624999272
+      }
+    },
+    {
+      "day": "2025-01-03",
+      "daily": {
+        "open": 24196.400390625,
+        "high": 24196.44921875,
+        "low": 23976,
+        "close": 24004.75
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": 0,
+        "close": -14.599999999998545
+      }
+    },
+    {
+      "day": "2025-01-06",
+      "daily": {
+        "open": 24045.80078125,
+        "high": 24089.94921875,
+        "low": 23551.900390625,
+        "close": 23616.05078125
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": 13.549218749998545
+      }
+    },
+    {
+      "day": "2025-01-07",
+      "daily": {
+        "open": 23679.900390625,
+        "high": 23795.19921875,
+        "low": 23637.80078125,
+        "close": 23707.900390625
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": -13.300390625001455
+      }
+    },
+    {
+      "day": "2025-01-08",
+      "daily": {
+        "open": 23746.650390625,
+        "high": 23751.849609375,
+        "low": 23496.150390625,
+        "close": 23688.94921875
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -13.749218749999272
+      }
+    },
+    {
+      "day": "2025-01-09",
+      "daily": {
+        "open": 23674.75,
+        "high": 23689.5,
+        "low": 23503.05078125,
+        "close": 23526.5
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": -0.0007812500007275958,
+        "close": 30.700000000000728
+      }
+    },
+    {
+      "day": "2025-01-10",
+      "daily": {
+        "open": 23551.900390625,
+        "high": 23596.599609375,
+        "low": 23344.349609375,
+        "close": 23431.5
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": 5.849999999998545
+      }
+    },
+    {
+      "day": "2025-01-13",
+      "daily": {
+        "open": 23195.400390625,
+        "high": 23340.94921875,
+        "low": 23047.25,
+        "close": 23085.94921875
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": 0,
+        "close": 2.7507812500007276
+      }
+    },
+    {
+      "day": "2025-01-14",
+      "daily": {
+        "open": 23165.900390625,
+        "high": 23264.94921875,
+        "low": 23134.150390625,
+        "close": 23176.05078125
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": 30.799218749998545
+      }
+    },
+    {
+      "day": "2025-01-15",
+      "daily": {
+        "open": 23250.44921875,
+        "high": 23293.650390625,
+        "low": 23146.44921875,
+        "close": 23213.19921875
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": 14.900781249998545
+      }
+    },
+    {
+      "day": "2025-01-16",
+      "daily": {
+        "open": 23377.25,
+        "high": 23391.650390625,
+        "low": 23272.05078125,
+        "close": 23311.80078125
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": 38.99921874999927
+      }
+    },
+    {
+      "day": "2025-01-17",
+      "daily": {
+        "open": 23277.099609375,
+        "high": 23292.099609375,
+        "low": 23100.349609375,
+        "close": 23203.19921875
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": -0.09921875000145519
+      }
+    },
+    {
+      "day": "2025-01-20",
+      "daily": {
+        "open": 23290.400390625,
+        "high": 23391.099609375,
+        "low": 23170.650390625,
+        "close": 23344.75
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -7.700000000000728
+      }
+    },
+    {
+      "day": "2025-01-21",
+      "daily": {
+        "open": 23421.650390625,
+        "high": 23426.30078125,
+        "low": 22976.849609375,
+        "close": 23024.650390625
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": 28.399609374999272
+      }
+    },
+    {
+      "day": "2025-01-22",
+      "daily": {
+        "open": 23099.150390625,
+        "high": 23169.55078125,
+        "low": 22981.30078125,
+        "close": 23155.349609375
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": 6.400390625
+      }
+    },
+    {
+      "day": "2025-01-23",
+      "daily": {
+        "open": 23128.30078125,
+        "high": 23270.80078125,
+        "low": 23090.650390625,
+        "close": 23205.349609375
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": 10.950390624999272
+      }
+    },
+    {
+      "day": "2025-01-24",
+      "daily": {
+        "open": 23183.900390625,
+        "high": 23347.30078125,
+        "low": 23050,
+        "close": 23092.19921875
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": 0,
+        "close": -1.8492187500014552
+      }
+    },
+    {
+      "day": "2025-01-27",
+      "daily": {
+        "open": 22940.150390625,
+        "high": 23007.44921875,
+        "low": 22786.900390625,
+        "close": 22829.150390625
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": -12.300390625001455
+      }
+    },
+    {
+      "day": "2025-01-28",
+      "daily": {
+        "open": 22960.44921875,
+        "high": 23137.94921875,
+        "low": 22857.650390625,
+        "close": 22957.25
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": 19.049999999999272
+      }
+    },
+    {
+      "day": "2025-01-29",
+      "daily": {
+        "open": 23026.75,
+        "high": 23183.349609375,
+        "low": 22976.5,
+        "close": 23163.099609375
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0003906249985448085,
+        "low": 0,
+        "close": 13.100390625000728
+      }
+    },
+    {
+      "day": "2025-01-30",
+      "daily": {
+        "open": 23169.5,
+        "high": 23322.05078125,
+        "low": 23139.19921875,
+        "close": 23249.5
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 48.45000000000073
+      }
+    },
+    {
+      "day": "2025-01-31",
+      "daily": {
+        "open": 23296.75,
+        "high": 23546.80078125,
+        "low": 23277.400390625,
+        "close": 23508.400390625
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": 25.449609374998545
+      }
+    },
+    {
+      "day": "2025-02-01",
+      "daily": {
+        "open": 23528.599609375,
+        "high": 23632.44921875,
+        "low": 23318.30078125,
+        "close": 23482.150390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": 13.149609374999272
+      }
+    },
+    {
+      "day": "2025-02-03",
+      "daily": {
+        "open": 23319.349609375,
+        "high": 23381.599609375,
+        "low": 23222,
+        "close": 23361.05078125
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": 0,
+        "close": -1.3507812499992724
+      }
+    },
+    {
+      "day": "2025-02-04",
+      "daily": {
+        "open": 23509.900390625,
+        "high": 23762.75,
+        "low": 23423.150390625,
+        "close": 23739.25
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0,
+        "low": -0.0003906249985448085,
+        "close": -31.549999999999272
+      }
+    },
+    {
+      "day": "2025-02-05",
+      "daily": {
+        "open": 23801.75,
+        "high": 23807.30078125,
+        "low": 23680.44921875,
+        "close": 23696.30078125
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": -9.55078125
+      }
+    },
+    {
+      "day": "2025-02-06",
+      "daily": {
+        "open": 23761.94921875,
+        "high": 23773.55078125,
+        "low": 23556.25,
+        "close": 23603.349609375
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": 0,
+        "close": 24.700390624999272
+      }
+    },
+    {
+      "day": "2025-02-07",
+      "daily": {
+        "open": 23649.5,
+        "high": 23694.5,
+        "low": 23443.19921875,
+        "close": 23559.94921875
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": 0.0007812500007275958,
+        "close": 3.200781250001455
+      }
+    },
+    {
+      "day": "2025-02-10",
+      "daily": {
+        "open": 23543.80078125,
+        "high": 23568.599609375,
+        "low": 23316.30078125,
+        "close": 23381.599609375
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": -5.549609375000728
+      }
+    },
+    {
+      "day": "2025-02-11",
+      "daily": {
+        "open": 23383.55078125,
+        "high": 23390.05078125,
+        "low": 22986.650390625,
+        "close": 23071.80078125
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": -1.30078125
+      }
+    },
+    {
+      "day": "2025-02-12",
+      "daily": {
+        "open": 23050.80078125,
+        "high": 23144.69921875,
+        "low": 22798.349609375,
+        "close": 23045.25
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": 12.549999999999272
+      }
+    },
+    {
+      "day": "2025-02-13",
+      "daily": {
+        "open": 23055.75,
+        "high": 23235.5,
+        "low": 22992.19921875,
+        "close": 23031.400390625
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": 0.0007812500007275958,
+        "close": -12.000390624998545
+      }
+    },
+    {
+      "day": "2025-02-14",
+      "daily": {
+        "open": 23096.44921875,
+        "high": 23133.69921875,
+        "low": 22774.849609375,
+        "close": 22929.25
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": -32
+      }
+    },
+    {
+      "day": "2025-02-17",
+      "daily": {
+        "open": 22809.900390625,
+        "high": 22974.19921875,
+        "low": 22725.44921875,
+        "close": 22959.5
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 4
+      }
+    },
+    {
+      "day": "2025-02-18",
+      "daily": {
+        "open": 22963.650390625,
+        "high": 22992.5,
+        "low": 22801.5,
+        "close": 22945.30078125
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0,
+        "low": 0,
+        "close": -22.150781249998545
+      }
+    },
+    {
+      "day": "2025-02-19",
+      "daily": {
+        "open": 22847.25,
+        "high": 23049.94921875,
+        "low": 22814.849609375,
+        "close": 22932.900390625
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": -18.500390624998545
+      }
+    },
+    {
+      "day": "2025-02-20",
+      "daily": {
+        "open": 22821.099609375,
+        "high": 22923.849609375,
+        "low": 22812.75,
+        "close": 22913.150390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": 0,
+        "close": -6.900390625
+      }
+    },
+    {
+      "day": "2025-02-21",
+      "daily": {
+        "open": 22857.19921875,
+        "high": 22921,
+        "low": 22720.30078125,
+        "close": 22795.900390625
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0,
+        "low": -0.0007812500007275958,
+        "close": -31.550390625001455
+      }
+    },
+    {
+      "day": "2025-02-24",
+      "daily": {
+        "open": 22609.349609375,
+        "high": 22668.05078125,
+        "low": 22518.80078125,
+        "close": 22553.349609375
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": -3.599609375
+      }
+    },
+    {
+      "day": "2025-02-25",
+      "daily": {
+        "open": 22516.44921875,
+        "high": 22625.30078125,
+        "low": 22513.900390625,
+        "close": 22547.55078125
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": -21.250781250000728
+      }
+    },
+    {
+      "day": "2025-02-27",
+      "daily": {
+        "open": 22568.94921875,
+        "high": 22613.30078125,
+        "low": 22508.400390625,
+        "close": 22545.05078125
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": -34.200781250001455
+      }
+    },
+    {
+      "day": "2025-02-28",
+      "daily": {
+        "open": 22433.400390625,
+        "high": 22450.349609375,
+        "low": 22104.849609375,
+        "close": 22124.69921875
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": 2.700781250001455
+      }
+    },
+    {
+      "day": "2025-03-03",
+      "daily": {
+        "open": 22194.55078125,
+        "high": 22261.55078125,
+        "low": 22004.69921875,
+        "close": 22119.30078125
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 23.849218750001455
+      }
+    },
+    {
+      "day": "2025-03-04",
+      "daily": {
+        "open": 21974.44921875,
+        "high": 22105.05078125,
+        "low": 21964.599609375,
+        "close": 22082.650390625
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": -2.3503906250007276
+      }
+    },
+    {
+      "day": "2025-03-05",
+      "daily": {
+        "open": 22073.05078125,
+        "high": 22394.900390625,
+        "low": 22067.80078125,
+        "close": 22337.30078125
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": 9.349218750001455
+      }
+    },
+    {
+      "day": "2025-03-06",
+      "daily": {
+        "open": 22476.349609375,
+        "high": 22556.44921875,
+        "low": 22245.849609375,
+        "close": 22544.69921875
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": -15.499218749999272
+      }
+    },
+    {
+      "day": "2025-03-07",
+      "daily": {
+        "open": 22508.650390625,
+        "high": 22633.80078125,
+        "low": 22464.75,
+        "close": 22552.5
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": 0,
+        "close": -15.549999999999272
+      }
+    },
+    {
+      "day": "2025-03-10",
+      "daily": {
+        "open": 22521.849609375,
+        "high": 22676.75,
+        "low": 22429.05078125,
+        "close": 22460.30078125
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0,
+        "low": -0.0007812500007275958,
+        "close": -19.200781250001455
+      }
+    },
+    {
+      "day": "2025-03-11",
+      "daily": {
+        "open": 22345.94921875,
+        "high": 22522.099609375,
+        "low": 22314.69921875,
+        "close": 22497.900390625
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": 22.599609375
+      }
+    },
+    {
+      "day": "2025-03-12",
+      "daily": {
+        "open": 22536.349609375,
+        "high": 22577.400390625,
+        "low": 22329.55078125,
+        "close": 22470.5
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": -2
+      }
+    },
+    {
+      "day": "2025-03-13",
+      "daily": {
+        "open": 22541.5,
+        "high": 22558.05078125,
+        "low": 22377.349609375,
+        "close": 22397.19921875
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": -13.899218750000728
+      }
+    },
+    {
+      "day": "2025-03-17",
+      "daily": {
+        "open": 22353.150390625,
+        "high": 22577,
+        "low": 22353.150390625,
+        "close": 22508.75
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0,
+        "low": -0.0003906249985448085,
+        "close": 6.5
+      }
+    },
+    {
+      "day": "2025-03-18",
+      "daily": {
+        "open": 22662.25,
+        "high": 22857.80078125,
+        "low": 22599.19921875,
+        "close": 22834.30078125
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 14.44921875
+      }
+    },
+    {
+      "day": "2025-03-19",
+      "daily": {
+        "open": 22874.94921875,
+        "high": 22940.69921875,
+        "low": 22807.94921875,
+        "close": 22907.599609375
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 4.200390624999272
+      }
+    },
+    {
+      "day": "2025-03-20",
+      "daily": {
+        "open": 23036.599609375,
+        "high": 23216.69921875,
+        "low": 22973.94921875,
+        "close": 23190.650390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": -24.950390624999272
+      }
+    },
+    {
+      "day": "2025-03-21",
+      "daily": {
+        "open": 23168.25,
+        "high": 23402.69921875,
+        "low": 23132.80078125,
+        "close": 23350.400390625
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": 5.249609375001455
+      }
+    },
+    {
+      "day": "2025-03-24",
+      "daily": {
+        "open": 23515.400390625,
+        "high": 23708.75,
+        "low": 23433.5,
+        "close": 23658.349609375
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0,
+        "low": 0,
+        "close": 15.800390625001455
+      }
+    },
+    {
+      "day": "2025-03-25",
+      "daily": {
+        "open": 23751.5,
+        "high": 23869.599609375,
+        "low": 23601.400390625,
+        "close": 23668.650390625
+      },
+      "delta": {
+        "open": 1.3499999999985448,
+        "high": 0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -62.70039062499927
+      }
+    },
+    {
+      "day": "2025-03-26",
+      "daily": {
+        "open": 23700.94921875,
+        "high": 23736.5,
+        "low": 23451.69921875,
+        "close": 23486.849609375
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0,
+        "low": 0.0007812500007275958,
+        "close": -22.549609375000728
+      }
+    },
+    {
+      "day": "2025-03-27",
+      "daily": {
+        "open": 23433.94921875,
+        "high": 23646.44921875,
+        "low": 23412.19921875,
+        "close": 23591.94921875
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 9.100781249999272
+      }
+    },
+    {
+      "day": "2025-03-28",
+      "daily": {
+        "open": 23600.400390625,
+        "high": 23649.19921875,
+        "low": 23450.19921875,
+        "close": 23519.349609375
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": -24.199609374998545
+      }
+    },
+    {
+      "day": "2025-04-01",
+      "daily": {
+        "open": 23341.099609375,
+        "high": 23565.150390625,
+        "low": 23136.400390625,
+        "close": 23165.69921875
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": 14.000781250000728
+      }
+    },
+    {
+      "day": "2025-04-02",
+      "daily": {
+        "open": 23192.599609375,
+        "high": 23350,
+        "low": 23158.44921875,
+        "close": 23332.349609375
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0,
+        "low": 0.0007812500007275958,
+        "close": -1.5496093750007276
+      }
+    },
+    {
+      "day": "2025-04-03",
+      "daily": {
+        "open": 23150.30078125,
+        "high": 23306.5,
+        "low": 23145.80078125,
+        "close": 23250.099609375
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0,
+        "low": -0.0007812500007275958,
+        "close": -8.499609375001455
+      }
+    },
+    {
+      "day": "2025-04-04",
+      "daily": {
+        "open": 23190.400390625,
+        "high": 23214.69921875,
+        "low": 22857.44921875,
+        "close": 22904.44921875
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 7.600781249999272
+      }
+    },
+    {
+      "day": "2025-04-07",
+      "daily": {
+        "open": 21758.400390625,
+        "high": 22254,
+        "low": 21743.650390625,
+        "close": 22161.599609375
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0,
+        "low": -0.0003906249985448085,
+        "close": 76.400390625
+      }
+    },
+    {
+      "day": "2025-04-08",
+      "daily": {
+        "open": 22446.75,
+        "high": 22697.19921875,
+        "low": 22270.849609375,
+        "close": 22535.849609375
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": 11.350390625000728
+      }
+    },
+    {
+      "day": "2025-04-09",
+      "daily": {
+        "open": 22460.30078125,
+        "high": 22468.69921875,
+        "low": 22353.25,
+        "close": 22399.150390625
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0,
+        "close": 21.249609375001455
+      }
+    },
+    {
+      "day": "2025-04-11",
+      "daily": {
+        "open": 22695.400390625,
+        "high": 22923.900390625,
+        "low": 22695.400390625,
+        "close": 22828.55078125
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": 15.94921875
+      }
+    },
+    {
+      "day": "2025-04-15",
+      "daily": {
+        "open": 23368.349609375,
+        "high": 23368.349609375,
+        "low": 23207,
+        "close": 23328.55078125
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": 0,
+        "close": 15.549218749998545
+      }
+    },
+    {
+      "day": "2025-04-16",
+      "daily": {
+        "open": 23344.099609375,
+        "high": 23452.19921875,
+        "low": 23273.05078125,
+        "close": 23437.19921875
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": -3.8992187500007276
+      }
+    },
+    {
+      "day": "2025-04-17",
+      "daily": {
+        "open": 23401.849609375,
+        "high": 23872.349609375,
+        "low": 23298.55078125,
+        "close": 23851.650390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": -13.900390625
+      }
+    },
+    {
+      "day": "2025-04-21",
+      "daily": {
+        "open": 23949.150390625,
+        "high": 24189.55078125,
+        "low": 23903.650390625,
+        "close": 24125.55078125
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": -4.350781249999272
+      }
+    },
+    {
+      "day": "2025-04-22",
+      "daily": {
+        "open": 24185.400390625,
+        "high": 24242.599609375,
+        "low": 24072,
+        "close": 24167.25
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": 0,
+        "close": -33.20000000000073
+      }
+    },
+    {
+      "day": "2025-04-23",
+      "daily": {
+        "open": 24357.599609375,
+        "high": 24359.30078125,
+        "low": 24119.94921875,
+        "close": 24328.94921875
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": -28.099218750001455
+      }
+    },
+    {
+      "day": "2025-04-24",
+      "daily": {
+        "open": 24277.900390625,
+        "high": 24347.849609375,
+        "low": 24216.150390625,
+        "close": 24246.69921875
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -1.6492187500007276
+      }
+    },
+    {
+      "day": "2025-04-25",
+      "daily": {
+        "open": 24289,
+        "high": 24365.44921875,
+        "low": 23847.849609375,
+        "close": 24039.349609375
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": -47.699609374998545
+      }
+    },
+    {
+      "day": "2025-04-28",
+      "daily": {
+        "open": 24070.25,
+        "high": 24355.099609375,
+        "low": 24054.05078125,
+        "close": 24328.5
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": -15.599999999998545
+      }
+    },
+    {
+      "day": "2025-04-29",
+      "daily": {
+        "open": 24370.69921875,
+        "high": 24457.650390625,
+        "low": 24290.75,
+        "close": 24335.94921875
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0003906249985448085,
+        "low": 0,
+        "close": -10.499218749999272
+      }
+    },
+    {
+      "day": "2025-04-30",
+      "daily": {
+        "open": 24342.05078125,
+        "high": 24396.150390625,
+        "low": 24198.75,
+        "close": 24334.19921875
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0003906249985448085,
+        "low": 0,
+        "close": -90.74921874999927
+      }
+    },
+    {
+      "day": "2025-05-02",
+      "daily": {
+        "open": 24311.900390625,
+        "high": 24589.150390625,
+        "low": 24238.5,
+        "close": 24346.69921875
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": 0,
+        "close": -33.049218749998545
+      }
+    },
+    {
+      "day": "2025-05-05",
+      "daily": {
+        "open": 24419.5,
+        "high": 24526.400390625,
+        "low": 24400.650390625,
+        "close": 24461.150390625
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -1.650390625
+      }
+    },
+    {
+      "day": "2025-05-06",
+      "daily": {
+        "open": 24500.75,
+        "high": 24509.650390625,
+        "low": 24331.80078125,
+        "close": 24379.599609375
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": -43.699609374998545
+      }
+    },
+    {
+      "day": "2025-05-07",
+      "daily": {
+        "open": 24233.30078125,
+        "high": 24449.599609375,
+        "low": 24220,
+        "close": 24414.400390625
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": 0,
+        "close": -5.100390625000728
+      }
+    },
+    {
+      "day": "2025-05-08",
+      "daily": {
+        "open": 24431.5,
+        "high": 24447.25,
+        "low": 24150.19921875,
+        "close": 24273.80078125
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": 0.0007812500007275958,
+        "close": -119.70078125000146
+      }
+    },
+    {
+      "day": "2025-05-09",
+      "daily": {
+        "open": 23935.75,
+        "high": 24164.25,
+        "low": 23935.75,
+        "close": 24008
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 30.650000000001455
+      }
+    },
+    {
+      "day": "2025-05-12",
+      "daily": {
+        "open": 24420.099609375,
+        "high": 24944.80078125,
+        "low": 24378.849609375,
+        "close": 24924.69921875
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": -4.44921875
+      }
+    },
+    {
+      "day": "2025-05-13",
+      "daily": {
+        "open": 24864.05078125,
+        "high": 24973.80078125,
+        "low": 24547.5,
+        "close": 24578.349609375
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": 0,
+        "close": 13.900390625
+      }
+    },
+    {
+      "day": "2025-05-14",
+      "daily": {
+        "open": 24613.80078125,
+        "high": 24767.55078125,
+        "low": 24535.55078125,
+        "close": 24666.900390625
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": 18.849609375
+      }
+    },
+    {
+      "day": "2025-05-15",
+      "daily": {
+        "open": 24694.44921875,
+        "high": 25116.25,
+        "low": 24494.44921875,
+        "close": 25062.099609375
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0,
+        "low": 0.0007812500007275958,
+        "close": -26.799609375000728
+      }
+    },
+    {
+      "day": "2025-05-16",
+      "daily": {
+        "open": 25064.650390625,
+        "high": 25070,
+        "low": 24953.05078125,
+        "close": 25019.80078125
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0,
+        "low": -0.0007812500007275958,
+        "close": -6.700781250001455
+      }
+    },
+    {
+      "day": "2025-05-19",
+      "daily": {
+        "open": 25005.349609375,
+        "high": 25062.94921875,
+        "low": 24916.650390625,
+        "close": 24945.44921875
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": -10.099218750001455
+      }
+    },
+    {
+      "day": "2025-05-20",
+      "daily": {
+        "open": 24996.19921875,
+        "high": 25010.349609375,
+        "low": 24669.69921875,
+        "close": 24683.900390625
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": 29.949609374998545
+      }
+    },
+    {
+      "day": "2025-05-21",
+      "daily": {
+        "open": 24744.25,
+        "high": 24946.19921875,
+        "low": 24685.349609375,
+        "close": 24813.44921875
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": -12.499218749999272
+      }
+    },
+    {
+      "day": "2025-05-22",
+      "daily": {
+        "open": 24733.94921875,
+        "high": 24737.5,
+        "low": 24462.400390625,
+        "close": 24609.69921875
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0,
+        "low": -0.0003906249985448085,
+        "close": 27.30078125
+      }
+    },
+    {
+      "day": "2025-05-23",
+      "daily": {
+        "open": 24639.5,
+        "high": 24909.05078125,
+        "low": 24614.05078125,
+        "close": 24853.150390625
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": -8.000390624998545
+      }
+    },
+    {
+      "day": "2025-05-26",
+      "daily": {
+        "open": 24919.349609375,
+        "high": 25079.19921875,
+        "low": 24900.5,
+        "close": 25001.150390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": 0,
+        "close": -4.800390625001455
+      }
+    },
+    {
+      "day": "2025-05-27",
+      "daily": {
+        "open": 24956.650390625,
+        "high": 25062.900390625,
+        "low": 24704.099609375,
+        "close": 24826.19921875
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": 11.500781250000728
+      }
+    },
+    {
+      "day": "2025-05-28",
+      "daily": {
+        "open": 24832.5,
+        "high": 24864.25,
+        "low": 24737.05078125,
+        "close": 24752.44921875
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": -0.0007812500007275958,
+        "close": 4.700781250001455
+      }
+    },
+    {
+      "day": "2025-05-29",
+      "daily": {
+        "open": 24825.099609375,
+        "high": 24892.599609375,
+        "low": 24677.30078125,
+        "close": 24833.599609375
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": 47.250390624998545
+      }
+    },
+    {
+      "day": "2025-05-30",
+      "daily": {
+        "open": 24812.599609375,
+        "high": 24863.94921875,
+        "low": 24717.400390625,
+        "close": 24750.69921875
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": -14.049218749998545
+      }
+    },
+    {
+      "day": "2025-06-02",
+      "daily": {
+        "open": 24669.69921875,
+        "high": 24754.400390625,
+        "low": 24526.150390625,
+        "close": 24716.599609375
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -25.899609374999272
+      }
+    },
+    {
+      "day": "2025-06-03",
+      "daily": {
+        "open": 24786.30078125,
+        "high": 24845.099609375,
+        "low": 24502.150390625,
+        "close": 24542.5
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -4.099999999998545
+      }
+    },
+    {
+      "day": "2025-06-04",
+      "daily": {
+        "open": 24560.44921875,
+        "high": 24644.25,
+        "low": 24530.44921875,
+        "close": 24620.19921875
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0,
+        "low": 0.0007812500007275958,
+        "close": -8.19921875
+      }
+    },
+    {
+      "day": "2025-06-05",
+      "daily": {
+        "open": 24691.19921875,
+        "high": 24899.849609375,
+        "low": 24613.099609375,
+        "close": 24750.900390625
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": 10.199609374998545
+      }
+    },
+    {
+      "day": "2025-06-06",
+      "daily": {
+        "open": 24748.69921875,
+        "high": 25029.5,
+        "low": 24671.44921875,
+        "close": 25003.05078125
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0,
+        "low": 0.0007812500007275958,
+        "close": -2.7507812500007276
+      }
+    },
+    {
+      "day": "2025-06-09",
+      "daily": {
+        "open": 25160.099609375,
+        "high": 25160.099609375,
+        "low": 25077.150390625,
+        "close": 25103.19921875
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -0.09921875000145519
+      }
+    },
+    {
+      "day": "2025-06-10",
+      "daily": {
+        "open": 25196.05078125,
+        "high": 25199.30078125,
+        "low": 25055.44921875,
+        "close": 25104.25
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": -12.75
+      }
+    },
+    {
+      "day": "2025-06-11",
+      "daily": {
+        "open": 25134.150390625,
+        "high": 25222.400390625,
+        "low": 25081.30078125,
+        "close": 25141.400390625
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": -14.600390625000728
+      }
+    },
+    {
+      "day": "2025-06-12",
+      "daily": {
+        "open": 25164.44921875,
+        "high": 25196.19921875,
+        "low": 24825.900390625,
+        "close": 24888.19921875
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": -32.19921875
+      }
+    },
+    {
+      "day": "2025-06-13",
+      "daily": {
+        "open": 24473,
+        "high": 24754.349609375,
+        "low": 24473,
+        "close": 24718.599609375
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0003906249985448085,
+        "low": 0,
+        "close": 16.950390624999272
+      }
+    },
+    {
+      "day": "2025-06-16",
+      "daily": {
+        "open": 24732.349609375,
+        "high": 24967.099609375,
+        "low": 24703.599609375,
+        "close": 24946.5
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": -5.549999999999272
+      }
+    },
+    {
+      "day": "2025-06-17",
+      "daily": {
+        "open": 24977.849609375,
+        "high": 24982.05078125,
+        "low": 24813.69921875,
+        "close": 24853.400390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": -11.900390625
+      }
+    },
+    {
+      "day": "2025-06-18",
+      "daily": {
+        "open": 24788.349609375,
+        "high": 24947.55078125,
+        "low": 24750.44921875,
+        "close": 24812.05078125
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": -13.30078125
+      }
+    },
+    {
+      "day": "2025-06-19",
+      "daily": {
+        "open": 24803.25,
+        "high": 24863.099609375,
+        "low": 24733.400390625,
+        "close": 24793.25
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -48.54999999999927
+      }
+    },
+    {
+      "day": "2025-06-20",
+      "daily": {
+        "open": 24787.650390625,
+        "high": 25136.19921875,
+        "low": 24783.650390625,
+        "close": 25112.400390625
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": -32.650390625
+      }
+    },
+    {
+      "day": "2025-06-23",
+      "daily": {
+        "open": 24939.75,
+        "high": 25057,
+        "low": 24824.849609375,
+        "close": 24971.900390625
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": 0.0003906249985448085,
+        "close": -13.000390624998545
+      }
+    },
+    {
+      "day": "2025-06-24",
+      "daily": {
+        "open": 25179.900390625,
+        "high": 25317.69921875,
+        "low": 24999.69921875,
+        "close": 25044.349609375
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 27.200390624999272
+      }
+    },
+    {
+      "day": "2025-06-25",
+      "daily": {
+        "open": 25150.349609375,
+        "high": 25266.80078125,
+        "low": 25125.05078125,
+        "close": 25244.75
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": -8.400000000001455
+      }
+    },
+    {
+      "day": "2025-06-26",
+      "daily": {
+        "open": 25268.94921875,
+        "high": 25565.30078125,
+        "low": 25259.900390625,
+        "close": 25549
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": -18.599999999998545
+      }
+    },
+    {
+      "day": "2025-06-27",
+      "daily": {
+        "open": 25576.650390625,
+        "high": 25654.19921875,
+        "low": 25523.55078125,
+        "close": 25637.80078125
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": -5.350781249999272
+      }
+    },
+    {
+      "day": "2025-06-30",
+      "daily": {
+        "open": 25661.650390625,
+        "high": 25669.349609375,
+        "low": 25473.30078125,
+        "close": 25517.05078125
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": -9.600781249999272
+      }
+    },
+    {
+      "day": "2025-07-01",
+      "daily": {
+        "open": 25551.349609375,
+        "high": 25593.400390625,
+        "low": 25501.80078125,
+        "close": 25541.80078125
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": -8.80078125
+      }
+    },
+    {
+      "day": "2025-07-02",
+      "daily": {
+        "open": 25588.30078125,
+        "high": 25608.099609375,
+        "low": 25378.75,
+        "close": 25453.400390625
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": 0,
+        "close": -10.550390625001455
+      }
+    },
+    {
+      "day": "2025-07-03",
+      "daily": {
+        "open": 25505.099609375,
+        "high": 25587.5,
+        "low": 25384.349609375,
+        "close": 25405.30078125
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0,
+        "low": 0.0003906249985448085,
+        "close": -7.900781249998545
+      }
+    },
+    {
+      "day": "2025-07-04",
+      "daily": {
+        "open": 25428.849609375,
+        "high": 25470.25,
+        "low": 25331.650390625,
+        "close": 25461
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0,
+        "low": -0.0003906249985448085,
+        "close": 6.799999999999272
+      }
+    },
+    {
+      "day": "2025-07-07",
+      "daily": {
+        "open": 25450.44921875,
+        "high": 25489.80078125,
+        "low": 25407.25,
+        "close": 25461.30078125
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": 0,
+        "close": -6.350781249999272
+      }
+    },
+    {
+      "day": "2025-07-08",
+      "daily": {
+        "open": 25427.849609375,
+        "high": 25548.05078125,
+        "low": 25424.150390625,
+        "close": 25522.5
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": 0.5999999999985448
+      }
+    },
+    {
+      "day": "2025-07-09",
+      "daily": {
+        "open": 25514.599609375,
+        "high": 25548.69921875,
+        "low": 25424.349609375,
+        "close": 25476.099609375
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": -11.449609374998545
+      }
+    },
+    {
+      "day": "2025-07-10",
+      "daily": {
+        "open": 25511.650390625,
+        "high": 25524.05078125,
+        "low": 25340.44921875,
+        "close": 25355.25
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": -7.099999999998545
+      }
+    },
+    {
+      "day": "2025-07-11",
+      "daily": {
+        "open": 25255.5,
+        "high": 25322.44921875,
+        "low": 25129,
+        "close": 25149.849609375
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0007812500007275958,
+        "low": 0,
+        "close": -9.299609375000728
+      }
+    },
+    {
+      "day": "2025-07-14",
+      "daily": {
+        "open": 25149.5,
+        "high": 25151.099609375,
+        "low": 25001.94921875,
+        "close": 25082.30078125
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": 4.799218749998545
+      }
+    },
+    {
+      "day": "2025-07-15",
+      "daily": {
+        "open": 25089.5,
+        "high": 25245.19921875,
+        "low": 25088.44921875,
+        "close": 25195.80078125
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 23.849218750001455
+      }
+    },
+    {
+      "day": "2025-07-16",
+      "daily": {
+        "open": 25196.599609375,
+        "high": 25255.30078125,
+        "low": 25121.05078125,
+        "close": 25212.05078125
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": -13.500781250000728
+      }
+    },
+    {
+      "day": "2025-07-17",
+      "daily": {
+        "open": 25230.75,
+        "high": 25238.349609375,
+        "low": 25101,
+        "close": 25111.44921875
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0003906249985448085,
+        "low": 0,
+        "close": -1.94921875
+      }
+    },
+    {
+      "day": "2025-07-18",
+      "daily": {
+        "open": 25108.55078125,
+        "high": 25144.599609375,
+        "low": 24918.650390625,
+        "close": 24968.400390625
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -0.9503906249992724
+      }
+    },
+    {
+      "day": "2025-07-21",
+      "daily": {
+        "open": 24999,
+        "high": 25111.400390625,
+        "low": 24882.30078125,
+        "close": 25090.69921875
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": 2.6007812499992724
+      }
+    },
+    {
+      "day": "2025-07-22",
+      "daily": {
+        "open": 25166.650390625,
+        "high": 25182,
+        "low": 25035.55078125,
+        "close": 25060.900390625
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0,
+        "low": -0.0007812500007275958,
+        "close": 3.999609375001455
+      }
+    },
+    {
+      "day": "2025-07-23",
+      "daily": {
+        "open": 25139.349609375,
+        "high": 25233.5,
+        "low": 25085.5,
+        "close": 25219.900390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0,
+        "low": 0,
+        "close": -10.700390624999272
+      }
+    },
+    {
+      "day": "2025-07-24",
+      "daily": {
+        "open": 25243.30078125,
+        "high": 25246.25,
+        "low": 25018.69921875,
+        "close": 25062.099609375
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0,
+        "low": 0.0007812500007275958,
+        "close": -10.199609374998545
+      }
+    },
+    {
+      "day": "2025-07-25",
+      "daily": {
+        "open": 25010.349609375,
+        "high": 25010.349609375,
+        "low": 24806.349609375,
+        "close": 24837
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": -4.799999999999272
+      }
+    },
+    {
+      "day": "2025-07-28",
+      "daily": {
+        "open": 24782.44921875,
+        "high": 24889.19921875,
+        "low": 24646.599609375,
+        "close": 24680.900390625
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": -6.950390624999272
+      }
+    },
+    {
+      "day": "2025-07-29",
+      "daily": {
+        "open": 24609.650390625,
+        "high": 24847.150390625,
+        "low": 24598.599609375,
+        "close": 24821.099609375
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": 9.300390625001455
+      }
+    },
+    {
+      "day": "2025-07-30",
+      "daily": {
+        "open": 24890.400390625,
+        "high": 24902.30078125,
+        "low": 24771.94921875,
+        "close": 24855.05078125
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": -10.500781250000728
+      }
+    },
+    {
+      "day": "2025-07-31",
+      "daily": {
+        "open": 24642.25,
+        "high": 24956.5,
+        "low": 24635,
+        "close": 24768.349609375
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": -2.749609375001455
+      }
+    },
+    {
+      "day": "2025-08-01",
+      "daily": {
+        "open": 24734.900390625,
+        "high": 24784.150390625,
+        "low": 24535.05078125,
+        "close": 24565.349609375
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": 6.800390625001455
+      }
+    },
+    {
+      "day": "2025-08-04",
+      "daily": {
+        "open": 24596.05078125,
+        "high": 24736.25,
+        "low": 24554,
+        "close": 24722.75
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0,
+        "low": 0,
+        "close": 4.150000000001455
+      }
+    },
+    {
+      "day": "2025-08-05",
+      "daily": {
+        "open": 24720.25,
+        "high": 24733.099609375,
+        "low": 24590.30078125,
+        "close": 24649.55078125
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": -0.05078125
+      }
+    },
+    {
+      "day": "2025-08-06",
+      "daily": {
+        "open": 24641.349609375,
+        "high": 24671.400390625,
+        "low": 24539.19921875,
+        "close": 24574.19921875
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": -4.599218750001455
+      }
+    },
+    {
+      "day": "2025-08-07",
+      "daily": {
+        "open": 24464.19921875,
+        "high": 24634.19921875,
+        "low": 24344.150390625,
+        "close": 24596.150390625
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": 30.499609375001455
+      }
+    },
+    {
+      "day": "2025-08-08",
+      "daily": {
+        "open": 24544.25,
+        "high": 24585.5,
+        "low": 24337.5,
+        "close": 24363.30078125
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": -12.450781250001455
+      }
+    },
+    {
+      "day": "2025-08-11",
+      "daily": {
+        "open": 24371.5,
+        "high": 24600.849609375,
+        "low": 24347.44921875,
+        "close": 24585.05078125
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": -22.900781249998545
+      }
+    },
+    {
+      "day": "2025-08-12",
+      "daily": {
+        "open": 24563.349609375,
+        "high": 24702.599609375,
+        "low": 24465.650390625,
+        "close": 24487.400390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -1.5503906250014552
+      }
+    },
+    {
+      "day": "2025-08-13",
+      "daily": {
+        "open": 24586.19921875,
+        "high": 24664.55078125,
+        "low": 24535.25,
+        "close": 24619.349609375
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": 0,
+        "close": 11.050390625001455
+      }
+    },
+    {
+      "day": "2025-08-14",
+      "daily": {
+        "open": 24607.25,
+        "high": 24673.650390625,
+        "low": 24596.900390625,
+        "close": 24631.30078125
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -15.250781250000728
+      }
+    },
+    {
+      "day": "2025-08-18",
+      "daily": {
+        "open": 24938.19921875,
+        "high": 25022,
+        "low": 24852.849609375,
+        "close": 24876.94921875
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0,
+        "low": 0.0003906249985448085,
+        "close": 7.100781249999272
+      }
+    },
+    {
+      "day": "2025-08-19",
+      "daily": {
+        "open": 24891.349609375,
+        "high": 25012.650390625,
+        "low": 24873.94921875,
+        "close": 24980.650390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": 9.049609375000728
+      }
+    },
+    {
+      "day": "2025-08-20",
+      "daily": {
+        "open": 24965.80078125,
+        "high": 25088.69921875,
+        "low": 24929.69921875,
+        "close": 25050.55078125
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": -3.400781249998545
+      }
+    },
+    {
+      "day": "2025-08-21",
+      "daily": {
+        "open": 25142,
+        "high": 25153.650390625,
+        "low": 25054.900390625,
+        "close": 25083.75
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -6.799999999999272
+      }
+    },
+    {
+      "day": "2025-08-22",
+      "daily": {
+        "open": 25064.150390625,
+        "high": 25084.849609375,
+        "low": 24859.150390625,
+        "close": 24870.099609375
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -0.6496093749992724
+      }
+    },
+    {
+      "day": "2025-08-25",
+      "daily": {
+        "open": 24949.150390625,
+        "high": 25021.55078125,
+        "low": 24894.349609375,
+        "close": 24967.75
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": 10.799999999999272
+      }
+    },
+    {
+      "day": "2025-08-26",
+      "daily": {
+        "open": 24899.5,
+        "high": 24919.650390625,
+        "low": 24689.599609375,
+        "close": 24712.05078125
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": -1.3507812499992724
+      }
+    },
+    {
+      "day": "2025-08-28",
+      "daily": {
+        "open": 24695.80078125,
+        "high": 24702.650390625,
+        "low": 24481.599609375,
+        "close": 24500.900390625
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": 32.199609374998545
+      }
+    },
+    {
+      "day": "2025-08-29",
+      "daily": {
+        "open": 24466.69921875,
+        "high": 24572.44921875,
+        "low": 24404.69921875,
+        "close": 24426.849609375
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 6.800390625001455
+      }
+    },
+    {
+      "day": "2025-09-01",
+      "daily": {
+        "open": 24432.69921875,
+        "high": 24635.599609375,
+        "low": 24432.69921875,
+        "close": 24625.05078125
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": -0.7507812500007276
+      }
+    },
+    {
+      "day": "2025-09-02",
+      "daily": {
+        "open": 24653,
+        "high": 24756.099609375,
+        "low": 24522.349609375,
+        "close": 24579.599609375
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": -4.599609375
+      }
+    },
+    {
+      "day": "2025-09-03",
+      "daily": {
+        "open": 24616.5,
+        "high": 24737.05078125,
+        "low": 24533.19921875,
+        "close": 24715.05078125
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": -1.4507812500014552
+      }
+    },
+    {
+      "day": "2025-09-04",
+      "daily": {
+        "open": 24980.75,
+        "high": 24980.75,
+        "low": 24708.19921875,
+        "close": 24734.30078125
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": 0.0007812500007275958,
+        "close": 5.499218749999272
+      }
+    },
+    {
+      "day": "2025-09-05",
+      "daily": {
+        "open": 24818.849609375,
+        "high": 24832.349609375,
+        "low": 24621.599609375,
+        "close": 24741
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": 2.9500000000007276
+      }
+    },
+    {
+      "day": "2025-09-08",
+      "daily": {
+        "open": 24802.599609375,
+        "high": 24885.5,
+        "low": 24751.55078125,
+        "close": 24773.150390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0,
+        "low": -0.0007812500007275958,
+        "close": 18.049609375000728
+      }
+    },
+    {
+      "day": "2025-09-09",
+      "daily": {
+        "open": 24864.099609375,
+        "high": 24891.80078125,
+        "low": 24814,
+        "close": 24868.599609375
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": 0,
+        "close": 10.200390624999272
+      }
+    },
+    {
+      "day": "2025-09-10",
+      "daily": {
+        "open": 24991,
+        "high": 25035.69921875,
+        "low": 24915.05078125,
+        "close": 24973.099609375
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": 4.450390624999272
+      }
+    },
+    {
+      "day": "2025-09-11",
+      "daily": {
+        "open": 24945.5,
+        "high": 25037.30078125,
+        "low": 24940.150390625,
+        "close": 25005.5
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": 2.599999999998545
+      }
+    },
+    {
+      "day": "2025-09-12",
+      "daily": {
+        "open": 25074.44921875,
+        "high": 25139.44921875,
+        "low": 25038.05078125,
+        "close": 25114
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": -6.299999999999272
+      }
+    },
+    {
+      "day": "2025-09-15",
+      "daily": {
+        "open": 25118.900390625,
+        "high": 25138.44921875,
+        "low": 25048.75,
+        "close": 25069.19921875
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": 0,
+        "close": 0.5007812500007276
+      }
+    },
+    {
+      "day": "2025-09-16",
+      "daily": {
+        "open": 25073.599609375,
+        "high": 25261.400390625,
+        "low": 25070.44921875,
+        "close": 25239.099609375
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": 15.350390625000728
+      }
+    },
+    {
+      "day": "2025-09-17",
+      "daily": {
+        "open": 25276.599609375,
+        "high": 25346.5,
+        "low": 25275.349609375,
+        "close": 25330.25
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0,
+        "low": 0.0003906249985448085,
+        "close": -0.09999999999854481
+      }
+    },
+    {
+      "day": "2025-09-18",
+      "daily": {
+        "open": 25441.05078125,
+        "high": 25448.94921875,
+        "low": 25329.75,
+        "close": 25423.599609375
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0,
+        "close": -2.849609375
+      }
+    },
+    {
+      "day": "2025-09-19",
+      "daily": {
+        "open": 25410.19921875,
+        "high": 25428.75,
+        "low": 25286.30078125,
+        "close": 25327.05078125
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0,
+        "low": -0.0007812500007275958,
+        "close": 25.44921875
+      }
+    },
+    {
+      "day": "2025-09-22",
+      "daily": {
+        "open": 25238.099609375,
+        "high": 25331.69921875,
+        "low": 25151.05078125,
+        "close": 25202.349609375
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": -2.1496093749992724
+      }
+    },
+    {
+      "day": "2025-09-23",
+      "daily": {
+        "open": 25209,
+        "high": 25261.900390625,
+        "low": 25084.650390625,
+        "close": 25169.5
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": 15.400000000001455
+      }
+    },
+    {
+      "day": "2025-09-24",
+      "daily": {
+        "open": 25108.75,
+        "high": 25149.849609375,
+        "low": 25027.44921875,
+        "close": 25056.900390625
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": 3.999609375001455
+      }
+    },
+    {
+      "day": "2025-09-25",
+      "daily": {
+        "open": 25034.5,
+        "high": 25092.69921875,
+        "low": 24878.30078125,
+        "close": 24890.849609375
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": 13.700390624999272
+      }
+    },
+    {
+      "day": "2025-09-26",
+      "daily": {
+        "open": 24818.55078125,
+        "high": 24868.599609375,
+        "low": 24629.44921875,
+        "close": 24654.69921875
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": 18.400781249998545
+      }
+    },
+    {
+      "day": "2025-09-29",
+      "daily": {
+        "open": 24728.55078125,
+        "high": 24791.30078125,
+        "low": 24606.19921875,
+        "close": 24634.900390625
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 42.64960937499927
+      }
+    },
+    {
+      "day": "2025-09-30",
+      "daily": {
+        "open": 24691.94921875,
+        "high": 24731.80078125,
+        "low": 24587.69921875,
+        "close": 24611.099609375
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 22.500390624998545
+      }
+    },
+    {
+      "day": "2025-10-01",
+      "daily": {
+        "open": 24620.55078125,
+        "high": 24867.94921875,
+        "low": 24605.94921875,
+        "close": 24836.30078125
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 17.099218750001455
+      }
+    },
+    {
+      "day": "2025-10-03",
+      "daily": {
+        "open": 24759.55078125,
+        "high": 24904.80078125,
+        "low": 24747.55078125,
+        "close": 24894.25
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": 0.75
+      }
+    },
+    {
+      "day": "2025-10-06",
+      "daily": {
+        "open": 24916.55078125,
+        "high": 25095.94921875,
+        "low": 24881.650390625,
+        "close": 25077.650390625
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": -5.100390625000728
+      }
+    },
+    {
+      "day": "2025-10-07",
+      "daily": {
+        "open": 25085.30078125,
+        "high": 25220.900390625,
+        "low": 25076.30078125,
+        "close": 25108.30078125
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": 4.499218749999272
+      }
+    },
+    {
+      "day": "2025-10-08",
+      "daily": {
+        "open": 25079.75,
+        "high": 25192.5,
+        "low": 25008.5,
+        "close": 25046.150390625
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": -22.350390625000728
+      }
+    },
+    {
+      "day": "2025-10-09",
+      "daily": {
+        "open": 25074.30078125,
+        "high": 25199.25,
+        "low": 25024.30078125,
+        "close": 25181.80078125
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0,
+        "low": -0.0007812500007275958,
+        "close": -11.500781250000728
+      }
+    },
+    {
+      "day": "2025-10-10",
+      "daily": {
+        "open": 25167.650390625,
+        "high": 25330.75,
+        "low": 25156.849609375,
+        "close": 25285.349609375
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0,
+        "low": 0.0003906249985448085,
+        "close": -7.149609374999272
+      }
+    },
+    {
+      "day": "2025-10-13",
+      "daily": {
+        "open": 25177.30078125,
+        "high": 25267.30078125,
+        "low": 25152.30078125,
+        "close": 25227.349609375
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": 9.800390625001455
+      }
+    },
+    {
+      "day": "2025-10-14",
+      "daily": {
+        "open": 25277.55078125,
+        "high": 25310.349609375,
+        "low": 25060.55078125,
+        "close": 25145.5
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": -22.150000000001455
+      }
+    },
+    {
+      "day": "2025-10-15",
+      "daily": {
+        "open": 25181.94921875,
+        "high": 25365.150390625,
+        "low": 25159.349609375,
+        "close": 25323.55078125
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": 4.19921875
+      }
+    },
+    {
+      "day": "2025-10-16",
+      "daily": {
+        "open": 25394.900390625,
+        "high": 25625.400390625,
+        "low": 25376.849609375,
+        "close": 25585.30078125
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": -19.000781250000728
+      }
+    },
+    {
+      "day": "2025-10-17",
+      "daily": {
+        "open": 25546.849609375,
+        "high": 25781.5,
+        "low": 25508.599609375,
+        "close": 25709.849609375
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0,
+        "low": 0.0003906249985448085,
+        "close": -5.149609374999272
+      }
+    },
+    {
+      "day": "2025-10-20",
+      "daily": {
+        "open": 25824.599609375,
+        "high": 25926.19921875,
+        "low": 25788.5,
+        "close": 25843.150390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": 0,
+        "close": 7.549609375000728
+      }
+    },
+    {
+      "day": "2025-10-21",
+      "daily": {
+        "open": 25901.19921875,
+        "high": 25934.349609375,
+        "low": 25825.80078125,
+        "close": 25868.599609375
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": 0.4992187499992724,
+        "close": -35.29960937500073
+      }
+    },
+    {
+      "day": "2025-10-23",
+      "daily": {
+        "open": 26057.19921875,
+        "high": 26104.19921875,
+        "low": 25862.44921875,
+        "close": 25891.400390625
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": -21.100390625000728
+      }
+    },
+    {
+      "day": "2025-10-24",
+      "daily": {
+        "open": 25935.099609375,
+        "high": 25944.150390625,
+        "low": 25718.19921875,
+        "close": 25795.150390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": 2.2996093750007276
+      }
+    },
+    {
+      "day": "2025-10-27",
+      "daily": {
+        "open": 25843.19921875,
+        "high": 26005.94921875,
+        "low": 25827,
+        "close": 25966.05078125
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0,
+        "close": 7.94921875
+      }
+    },
+    {
+      "day": "2025-10-28",
+      "daily": {
+        "open": 25939.94921875,
+        "high": 26041.69921875,
+        "low": 25810.05078125,
+        "close": 25936.19921875
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": 29.200781250001455
+      }
+    },
+    {
+      "day": "2025-10-29",
+      "daily": {
+        "open": 25982,
+        "high": 26097.849609375,
+        "low": 25960.30078125,
+        "close": 26053.900390625
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": 14.399609374999272
+      }
+    },
+    {
+      "day": "2025-10-30",
+      "daily": {
+        "open": 25984.400390625,
+        "high": 26032.05078125,
+        "low": 25845.25,
+        "close": 25877.849609375
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": 0,
+        "close": 13.350390625000728
+      }
+    },
+    {
+      "day": "2025-10-31",
+      "daily": {
+        "open": 25863.80078125,
+        "high": 25953.75,
+        "low": 25711.19921875,
+        "close": 25722.099609375
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0,
+        "low": 0.0007812500007275958,
+        "close": 10.450390624999272
+      }
+    },
+    {
+      "day": "2025-11-03",
+      "daily": {
+        "open": 25696.849609375,
+        "high": 25803.099609375,
+        "low": 25645.5,
+        "close": 25763.349609375
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0003906249985448085,
+        "low": 0,
+        "close": 10.950390624999272
+      }
+    },
+    {
+      "day": "2025-11-04",
+      "daily": {
+        "open": 25744.75,
+        "high": 25787.400390625,
+        "low": 25578.400390625,
+        "close": 25597.650390625
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0003906249985448085,
+        "low": -0.0003906249985448085,
+        "close": -11.400390625
+      }
+    },
+    {
+      "day": "2025-11-06",
+      "daily": {
+        "open": 25593.349609375,
+        "high": 25679.150390625,
+        "low": 25491.55078125,
+        "close": 25509.69921875
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": 10.250781250000728
+      }
+    },
+    {
+      "day": "2025-11-07",
+      "daily": {
+        "open": 25433.80078125,
+        "high": 25551.25,
+        "low": 25318.44921875,
+        "close": 25492.30078125
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0,
+        "low": 0.0007812500007275958,
+        "close": 18.499218749999272
+      }
+    },
+    {
+      "day": "2025-11-10",
+      "daily": {
+        "open": 25503.5,
+        "high": 25653.44921875,
+        "low": 25503.5,
+        "close": 25574.349609375
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0007812500007275958,
+        "low": 0,
+        "close": -0.099609375
+      }
+    },
+    {
+      "day": "2025-11-11",
+      "daily": {
+        "open": 25617,
+        "high": 25715.80078125,
+        "low": 25449.25,
+        "close": 25694.94921875
+      },
+      "delta": {
+        "open": 0,
+        "high": -0.0007812500007275958,
+        "low": 0,
+        "close": 10.600781249999272
+      }
+    },
+    {
+      "day": "2025-11-12",
+      "daily": {
+        "open": 25834.30078125,
+        "high": 25934.55078125,
+        "low": 25781.150390625,
+        "close": 25875.80078125
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": -1.80078125
+      }
+    },
+    {
+      "day": "2025-11-13",
+      "daily": {
+        "open": 25906.099609375,
+        "high": 26010.69921875,
+        "low": 25808.400390625,
+        "close": 25879.150390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": 4.949609374998545
+      }
+    },
+    {
+      "day": "2025-11-14",
+      "daily": {
+        "open": 25767.900390625,
+        "high": 25940.19921875,
+        "low": 25740.80078125,
+        "close": 25910.05078125
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": 6.749218749999272
+      }
+    },
+    {
+      "day": "2025-11-17",
+      "daily": {
+        "open": 25948.19921875,
+        "high": 26024.19921875,
+        "low": 25906.349609375,
+        "close": 26013.44921875
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": 0.8507812499992724
+      }
+    },
+    {
+      "day": "2025-11-18",
+      "daily": {
+        "open": 26021.80078125,
+        "high": 26029.849609375,
+        "low": 25876.5,
+        "close": 25910.05078125
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": 0,
+        "close": -15.350781249999272
+      }
+    },
+    {
+      "day": "2025-11-19",
+      "daily": {
+        "open": 25918.099609375,
+        "high": 26074.650390625,
+        "low": 25856.19921875,
+        "close": 26052.650390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": 0.049609375000727596
+      }
+    },
+    {
+      "day": "2025-11-20",
+      "daily": {
+        "open": 26132.099609375,
+        "high": 26246.650390625,
+        "low": 26063.19921875,
+        "close": 26192.150390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": 5.249609375001455
+      }
+    },
+    {
+      "day": "2025-11-21",
+      "daily": {
+        "open": 26109.55078125,
+        "high": 26179.19921875,
+        "low": 26052.19921875,
+        "close": 26068.150390625
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": -4.200390624999272
+      }
+    },
+    {
+      "day": "2025-11-24",
+      "daily": {
+        "open": 26122.80078125,
+        "high": 26142.80078125,
+        "low": 25912.150390625,
+        "close": 25959.5
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": -16.150000000001455
+      }
+    },
+    {
+      "day": "2025-11-25",
+      "daily": {
+        "open": 25998.5,
+        "high": 26032.599609375,
+        "low": 25857.5,
+        "close": 25884.80078125
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0003906249985448085,
+        "low": 0,
+        "close": -24.500781250000728
+      }
+    },
+    {
+      "day": "2025-11-26",
+      "daily": {
+        "open": 25842.94921875,
+        "high": 26215.150390625,
+        "low": 25842.94921875,
+        "close": 26205.30078125
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": -2.6007812499992724
+      }
+    },
+    {
+      "day": "2025-11-27",
+      "daily": {
+        "open": 26261.25,
+        "high": 26310.44921875,
+        "low": 26141.900390625,
+        "close": 26215.55078125
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0007812500007275958,
+        "low": -0.0003906249985448085,
+        "close": 4.299218749998545
+      }
+    },
+    {
+      "day": "2025-11-28",
+      "daily": {
+        "open": 26237.44921875,
+        "high": 26280.75,
+        "low": 26172.400390625,
+        "close": 26202.94921875
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0,
+        "low": -0.0003906249985448085,
+        "close": 1.6007812499992724
+      }
+    },
+    {
+      "day": "2025-12-01",
+      "daily": {
+        "open": 26325.80078125,
+        "high": 26325.80078125,
+        "low": 26124.19921875,
+        "close": 26175.75
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": 0.0007812500007275958,
+        "close": 0.2000000000007276
+      }
+    },
+    {
+      "day": "2025-12-02",
+      "daily": {
+        "open": 26087.94921875,
+        "high": 26154.599609375,
+        "low": 25997.849609375,
+        "close": 26032.19921875
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": 24.80078125
+      }
+    },
+    {
+      "day": "2025-12-03",
+      "daily": {
+        "open": 26004.900390625,
+        "high": 26066.44921875,
+        "low": 25891,
+        "close": 25986
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": 0,
+        "close": -0.9000000000014552
+      }
+    },
+    {
+      "day": "2025-12-04",
+      "daily": {
+        "open": 25981.849609375,
+        "high": 26098.25,
+        "low": 25938.94921875,
+        "close": 26033.75
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0,
+        "low": 0.0007812500007275958,
+        "close": -16.650000000001455
+      }
+    },
+    {
+      "day": "2025-12-05",
+      "daily": {
+        "open": 25999.80078125,
+        "high": 26202.599609375,
+        "low": 25985.349609375,
+        "close": 26186.44921875
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": -9.799218749998545
+      }
+    },
+    {
+      "day": "2025-12-08",
+      "daily": {
+        "open": 26159.80078125,
+        "high": 26178.69921875,
+        "low": 25892.25,
+        "close": 25960.55078125
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0,
+        "close": -27.750781250000728
+      }
+    },
+    {
+      "day": "2025-12-09",
+      "daily": {
+        "open": 25867.099609375,
+        "high": 25923.650390625,
+        "low": 25728,
+        "close": 25839.650390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": 0,
+        "close": 2.099609375
+      }
+    },
+    {
+      "day": "2025-12-10",
+      "daily": {
+        "open": 25864.05078125,
+        "high": 25947.650390625,
+        "low": 25734.55078125,
+        "close": 25758
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": -15.349999999998545
+      }
+    },
+    {
+      "day": "2025-12-11",
+      "daily": {
+        "open": 25771.400390625,
+        "high": 25922.80078125,
+        "low": 25693.25,
+        "close": 25898.55078125
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": 0,
+        "close": -0.1507812499985448
+      }
+    },
+    {
+      "day": "2025-12-12",
+      "daily": {
+        "open": 25971.19921875,
+        "high": 26057.599609375,
+        "low": 25938.44921875,
+        "close": 26046.94921875
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": -3.94921875
+      }
+    },
+    {
+      "day": "2025-12-15",
+      "daily": {
+        "open": 25930.05078125,
+        "high": 26047.150390625,
+        "low": 25904.75,
+        "close": 26027.30078125
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": -0.0003906249985448085,
+        "low": 0,
+        "close": -13.30078125
+      }
+    },
+    {
+      "day": "2025-12-16",
+      "daily": {
+        "open": 25951.5,
+        "high": 25980.75,
+        "low": 25834.349609375,
+        "close": 25860.099609375
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": 0.0003906249985448085,
+        "close": -8.749609375001455
+      }
+    },
+    {
+      "day": "2025-12-17",
+      "daily": {
+        "open": 25902.400390625,
+        "high": 25929.150390625,
+        "low": 25770.349609375,
+        "close": 25818.55078125
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": 0.0003906249985448085,
+        "close": 4.099218750001455
+      }
+    },
+    {
+      "day": "2025-12-18",
+      "daily": {
+        "open": 25764.69921875,
+        "high": 25902.349609375,
+        "low": 25726.30078125,
+        "close": 25815.55078125
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": 0.0003906249985448085,
+        "low": -0.0007812500007275958,
+        "close": 0.09921875000145519
+      }
+    },
+    {
+      "day": "2025-12-19",
+      "daily": {
+        "open": 25911.5,
+        "high": 25993.349609375,
+        "low": 25880.44921875,
+        "close": 25966.400390625
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0003906249985448085,
+        "low": 0.0007812500007275958,
+        "close": -5.000390624998545
+      }
+    },
+    {
+      "day": "2025-12-22",
+      "daily": {
+        "open": 26055.849609375,
+        "high": 26180.69921875,
+        "low": 26047.80078125,
+        "close": 26172.400390625
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": 0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": -9.650390625
+      }
+    },
+    {
+      "day": "2025-12-23",
+      "daily": {
+        "open": 26205.19921875,
+        "high": 26233.55078125,
+        "low": 26119.05078125,
+        "close": 26177.150390625
+      },
+      "delta": {
+        "open": 0.0007812500007275958,
+        "high": -0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": -11.200390624999272
+      }
+    },
+    {
+      "day": "2025-12-24",
+      "daily": {
+        "open": 26170.650390625,
+        "high": 26236.400390625,
+        "low": 26123,
+        "close": 26142.099609375
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": -0.0003906249985448085,
+        "low": 0,
+        "close": -0.4496093749985448
+      }
+    },
+    {
+      "day": "2025-12-26",
+      "daily": {
+        "open": 26121.25,
+        "high": 26144.19921875,
+        "low": 26008.599609375,
+        "close": 26042.30078125
+      },
+      "delta": {
+        "open": 0,
+        "high": 0.0007812500007275958,
+        "low": 0.0003906249985448085,
+        "close": 5.349218750001455
+      }
+    },
+    {
+      "day": "2025-12-29",
+      "daily": {
+        "open": 26063.349609375,
+        "high": 26106.80078125,
+        "low": 25920.30078125,
+        "close": 25942.099609375
+      },
+      "delta": {
+        "open": 0.0003906249985448085,
+        "high": -0.0007812500007275958,
+        "low": -0.0007812500007275958,
+        "close": 7.700390624999272
+      }
+    },
+    {
+      "day": "2025-12-30",
+      "daily": {
+        "open": 25940.900390625,
+        "high": 25976.75,
+        "low": 25878,
+        "close": 25938.849609375
+      },
+      "delta": {
+        "open": -0.0003906249985448085,
+        "high": 0,
+        "low": 0,
+        "close": 31.700390624999272
+      }
+    },
+    {
+      "day": "2025-12-31",
+      "daily": {
+        "open": 25971.05078125,
+        "high": 26187.94921875,
+        "low": 25969,
+        "close": 26129.599609375
+      },
+      "delta": {
+        "open": -0.0007812500007275958,
+        "high": 0.0007812500007275958,
+        "low": 0,
+        "close": 12.250390624998545
+      }
+    }
+  ],
+  "exchangeChecks": [
+    {
+      "day": "2025-01-01",
+      "daily": {
+        "open": 23637.65,
+        "high": 23822.8,
+        "low": 23562.8,
+        "close": 23742.9
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 15.799999999999272
+      }
+    },
+    {
+      "day": "2025-04-07",
+      "daily": {
+        "open": 21758.4,
+        "high": 22254,
+        "low": 21743.65,
+        "close": 22161.6
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 76.40000000000146
+      }
+    },
+    {
+      "day": "2025-12-31",
+      "daily": {
+        "open": 25971.05,
+        "high": 26187.95,
+        "low": 25969,
+        "close": 26129.6
+      },
+      "delta": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 12.25
+      }
+    }
+  ],
+  "mirrorCheck": {
+    "dataset": "https://www.kaggle.com/datasets/debashis74017/nifty-50-minute-data",
+    "version": 18,
+    "file": "kaggle-2025-crosscheck.csv",
+    "sha256": "69ad7b647283ce2b48cb190661d98fcd62576017d6b1a75a941965b41ca4837a",
+    "originalFullFileSha256": "359a3ad605f9d47ae565270b4bbe89e140bba5244c2e17650c92f64663053429",
+    "rows": 93060,
+    "compared": 93060,
+    "differences": 6847,
+    "maxDifference": 8.5,
+    "overOnePoint": 1723,
+    "independentFeedConfirmed": false,
+    "alternateDataFile": "minute-candles-kaggle.json",
+    "alternateDataSha256": "f6cc419ea3b3eb06c240888cf8704e667172690715aced2d689ebc2d0d046d63",
+    "alternateCandlesIncludingWarmup": 97185
+  },
+  "calendarSources": [
+    "https://nsearchives.nseindia.com/content/circulars/CMTR65587.pdf",
+    "https://nsearchives.nseindia.com/content/circulars/CMTR65729.pdf",
+    "https://nsearchives.nseindia.com/content/circulars/CMTR70319.pdf"
+  ],
+  "provenanceNote": "Community archive. Owner says unnamed broker API, no interpolation; not exchange-certified. https://github.com/technovusin/nifty50-historical-data/issues/2#issuecomment-6462834472",
+  "notes": [
+    "Epoch and IST label agree for every row. All year/session minutes present; no duplicates or malformed OHLC.",
+    "No rows filled, interpolated, adjusted, or generated by this application. Uploader cleaning is documented in the saved README.",
+    "Daily high/low/open comparisons test broad consistency, not every minute. Daily settlement close can differ from the final minute.",
+    "2025 uses 09:15-15:30 normal sessions, before the 2026 closing-auction change. Feb1 and Oct21 special sessions are included."
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-11-08T10:40:38.705Z",
+  "reportSha256": "e1f557eb0c6fe60de46142083136efdd73cde211931386e1c7eda5515a35535f",
+  "baselineSha256": "0a6f517e7186a4c31015e65c716de2990d9850dc9cbc655426cef3ec489eb6c8",
+  "referenceSha256": "bdd4fc5767b3088397217cea475c2b3b79512c75836ca37902904b0bb6774188",
+  "method": "Independent per-C2 Pine-series/lifecycle reference with post-sweep gate; complete event/frozen-level/entry sets; audited unchanged simple baseline; independent minute fills, invalidation exits, 2R, grouped-time drawdown and cost arithmetic. No production engine imports.",
+  "failures": [],
+  "audited": [
+    {
+      "feed": "Technovus",
+      "pair": "60/5",
+      "variant": "previous_simple",
+      "sourceEventsChecked": 0,
+      "tradesChecked": 757,
+      "totalR": 14.613298970192998
+    },
+    {
+      "feed": "Technovus",
+      "pair": "60/5",
+      "variant": "new_full_rules",
+      "sourceEventsChecked": 2700,
+      "tradesChecked": 538,
+      "totalR": 0.8307606700944442
+    },
+    {
+      "feed": "Technovus",
+      "pair": "30/3",
+      "variant": "previous_simple",
+      "sourceEventsChecked": 0,
+      "tradesChecked": 1482,
+      "totalR": 50.8891791623538
+    },
+    {
+      "feed": "Technovus",
+      "pair": "30/3",
+      "variant": "new_full_rules",
+      "sourceEventsChecked": 5333,
+      "tradesChecked": 1053,
+      "totalR": 41.70253999037968
+    },
+    {
+      "feed": "Technovus",
+      "pair": "15/1",
+      "variant": "previous_simple",
+      "sourceEventsChecked": 0,
+      "tradesChecked": 2962,
+      "totalR": 10.098092112192543
+    },
+    {
+      "feed": "Technovus",
+      "pair": "15/1",
+      "variant": "new_full_rules",
+      "sourceEventsChecked": 10944,
+      "tradesChecked": 2236,
+      "totalR": 27.130468333820286
+    },
+    {
+      "feed": "Kaggle v18",
+      "pair": "60/5",
+      "variant": "previous_simple",
+      "sourceEventsChecked": 0,
+      "tradesChecked": 755,
+      "totalR": 13.325083569113778
+    },
+    {
+      "feed": "Kaggle v18",
+      "pair": "60/5",
+      "variant": "new_full_rules",
+      "sourceEventsChecked": 2696,
+      "tradesChecked": 538,
+      "totalR": 0.6114191582088494
+    },
+    {
+      "feed": "Kaggle v18",
+      "pair": "30/3",
+      "variant": "previous_simple",
+      "sourceEventsChecked": 0,
+      "tradesChecked": 1482,
+      "totalR": 60.4365510701748
+    },
+    {
+      "feed": "Kaggle v18",
+      "pair": "30/3",
+      "variant": "new_full_rules",
+      "sourceEventsChecked": 5331,
+      "tradesChecked": 1053,
+      "totalR": 44.048433982425266
+    },
+    {
+      "feed": "Kaggle v18",
+      "pair": "15/1",
+      "variant": "previous_simple",
+      "sourceEventsChecked": 0,
+      "tradesChecked": 2959,
+      "totalR": 20.041698717468275
+    },
+    {
+      "feed": "Kaggle v18",
+      "pair": "15/1",
+      "variant": "new_full_rules",
+      "sourceEventsChecked": 10930,
+      "tradesChecked": 2233,
+      "totalR": 31.66966629417103
+    }
+  ]
+}

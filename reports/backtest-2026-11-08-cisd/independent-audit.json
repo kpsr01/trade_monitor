@@ -1,0 +1,121 @@
+{
+  "generatedAt": "2026-11-08T08:22:34.155Z",
+  "method": "Independent raw-minute lookup and arithmetic, without importing indicator/backtest implementation. Checks entry minute close, fully closed C2 wick, confirmation/event availability, exact stop and 2R, all post-entry exits, unresolved gaps and aggregate metrics.",
+  "reportSha256": "0aa5fabe7338ae097801d4eaf42cde43f2ef6d2b117d287bac914f96a33af1ac",
+  "candleSha256": "ab500b8de206810a97eda0d66fe69c0e46fedd0233af6a879eb0ae9a559615b9",
+  "failures": [],
+  "results": [
+    {
+      "pair": "60/5",
+      "checkedTrades": 16,
+      "independentMetrics": {
+        "closedTrades": 16,
+        "wins": 9,
+        "totalR": 3.7402790665152468,
+        "maxDrawdownR": 2.852005551691732,
+        "profitFactorR": 1.9522291472530775,
+        "unresolvedTrades": 0
+      },
+      "unresolved": []
+    },
+    {
+      "pair": "30/3",
+      "checkedTrades": 35,
+      "independentMetrics": {
+        "closedTrades": 34,
+        "wins": 16,
+        "totalR": 7.450038579014193,
+        "maxDrawdownR": 3.635393802561084,
+        "profitFactorR": 1.5406342029336466,
+        "unresolvedTrades": 1
+      },
+      "unresolved": [
+        {
+          "signalId": "^NSEI:30-3:1792043100000:bullish",
+          "entryTime": "2026-10-15 11:45:00 IST",
+          "status": "unresolved",
+          "exitReason": "missing_candle",
+          "firstMissingMinute": "2026-10-15 11:45:00 IST",
+          "previousModelTrade": null
+        }
+      ]
+    },
+    {
+      "pair": "15/1",
+      "checkedTrades": 47,
+      "independentMetrics": {
+        "closedTrades": 46,
+        "wins": 19,
+        "totalR": 2.3415661160724612,
+        "maxDrawdownR": 6.647663505891668,
+        "profitFactorR": 1.0926025977747258,
+        "unresolvedTrades": 1
+      },
+      "unresolved": [
+        {
+          "signalId": "^NSEI:15-1:1792043100000:bullish",
+          "entryTime": "2026-10-15 11:30:00 IST",
+          "status": "unresolved",
+          "exitReason": "missing_candle",
+          "firstMissingMinute": "2026-10-15 11:45:00 IST",
+          "previousModelTrade": {
+            "signalId": "^NSEI:15-1:1792043100000:bullish",
+            "direction": "bullish",
+            "status": "unresolved",
+            "entryTime": 1792044000000,
+            "entry": 22954.30078125,
+            "stopLoss": 22893.15,
+            "target": 23076.60234375,
+            "risk": 61.150781249998545,
+            "confirmedAt": 1792044000000,
+            "confirmationAvailableAt": 1792044000000,
+            "entryRecordedAt": 1792044060000,
+            "exitTime": null,
+            "exit": null,
+            "exitReason": "missing_candle",
+            "grossPoints": null,
+            "points": null,
+            "grossR": null,
+            "r": null,
+            "ambiguousBar": false,
+            "roundTripCostPoints": 0
+          }
+        }
+      ]
+    }
+  ],
+  "comparison": [
+    {
+      "pair": "60/5",
+      "newSignalIds": [],
+      "removedSignalIds": [],
+      "sharedSignals": 16
+    },
+    {
+      "pair": "30/3",
+      "newSignalIds": [
+        "^NSEI:30-3:1792043100000:bullish",
+        "^NSEI:30-3:1793605500000:bullish"
+      ],
+      "removedSignalIds": [
+        "^NSEI:30-3:1792048500000:bearish"
+      ],
+      "sharedSignals": 33
+    },
+    {
+      "pair": "15/1",
+      "newSignalIds": [
+        "^NSEI:15-1:1792402200000:bullish",
+        "^NSEI:15-1:1792994400000:bullish"
+      ],
+      "removedSignalIds": [
+        "^NSEI:15-1:1792557900000:bullish",
+        "^NSEI:15-1:1792997100000:bullish",
+        "^NSEI:15-1:1792998900000:bullish",
+        "^NSEI:15-1:1793001600000:bearish",
+        "^NSEI:15-1:1793003400000:bullish"
+      ],
+      "sharedSignals": 45
+    }
+  ]
+}

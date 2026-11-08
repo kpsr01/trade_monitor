@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-11-08T10:26:06.626Z",
+  "method": "Independent Pine-level series, per-sweep first subsequent LTF close, complete eligible-entry set, every post-entry minute path, exact SL/2R and P&L. No production engine imports.",
+  "reportSha256": "0a6f517e7186a4c31015e65c716de2990d9850dc9cbc655426cef3ec489eb6c8",
+  "failures": [],
+  "results": [
+    {
+      "feed": "Technovus",
+      "pair": "60/5",
+      "mode": "daily_exit",
+      "c2SignalsChecked": 794,
+      "tradesChecked": 757,
+      "totalR": 14.613298970192998
+    },
+    {
+      "feed": "Technovus",
+      "pair": "60/5",
+      "mode": "carry",
+      "c2SignalsChecked": 794,
+      "tradesChecked": 765,
+      "totalR": -18.407578703815304
+    },
+    {
+      "feed": "Technovus",
+      "pair": "30/3",
+      "mode": "daily_exit",
+      "c2SignalsChecked": 1571,
+      "tradesChecked": 1482,
+      "totalR": 50.8891791623538
+    },
+    {
+      "feed": "Technovus",
+      "pair": "30/3",
+      "mode": "carry",
+      "c2SignalsChecked": 1571,
+      "tradesChecked": 1492,
+      "totalR": -149.6880905467418
+    },
+    {
+      "feed": "Technovus",
+      "pair": "15/1",
+      "mode": "daily_exit",
+      "c2SignalsChecked": 3126,
+      "tradesChecked": 2962,
+      "totalR": 10.098092112192543
+    },
+    {
+      "feed": "Technovus",
+      "pair": "15/1",
+      "mode": "carry",
+      "c2SignalsChecked": 3126,
+      "tradesChecked": 2966,
+      "totalR": -300.03989528428247
+    },
+    {
+      "feed": "Kaggle v18",
+      "pair": "60/5",
+      "mode": "daily_exit",
+      "c2SignalsChecked": 792,
+      "tradesChecked": 755,
+      "totalR": 13.325083569113778
+    },
+    {
+      "feed": "Kaggle v18",
+      "pair": "60/5",
+      "mode": "carry",
+      "c2SignalsChecked": 792,
+      "tradesChecked": 763,
+      "totalR": -19.565695966422787
+    },
+    {
+      "feed": "Kaggle v18",
+      "pair": "30/3",
+      "mode": "daily_exit",
+      "c2SignalsChecked": 1570,
+      "tradesChecked": 1482,
+      "totalR": 60.4365510701748
+    },
+    {
+      "feed": "Kaggle v18",
+      "pair": "30/3",
+      "mode": "carry",
+      "c2SignalsChecked": 1570,
+      "tradesChecked": 1491,
+      "totalR": -139.84015628228246
+    },
+    {
+      "feed": "Kaggle v18",
+      "pair": "15/1",
+      "mode": "daily_exit",
+      "c2SignalsChecked": 3123,
+      "tradesChecked": 2959,
+      "totalR": 20.041698717468275
+    },
+    {
+      "feed": "Kaggle v18",
+      "pair": "15/1",
+      "mode": "carry",
+      "c2SignalsChecked": 3123,
+      "tradesChecked": 2963,
+      "totalR": -294.0720603192401
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "verifiedAt": "2026-11-08T10:26:36.574Z",
+  "selectedHoldingPolicy": "daily_exit",
+  "targetedTests": 21,
+  "typecheck": "passed",
+  "explicitModeReplaysUnchanged": 12,
+  "independentAuditPositions": 20837,
+  "independentAuditFailures": 0,
+  "reportSha256": "0a6f517e7186a4c31015e65c716de2990d9850dc9cbc655426cef3ec489eb6c8",
+  "previousFullVerification": {
+    "verifiedAt": "2026-11-08T10:18:16.722Z",
+    "tests": 165,
+    "testFiles": 8,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "independentAuditPositions": 20837,
+    "independentAuditFailures": 0,
+    "liveApiStatus": 200,
+    "liveApiStrategy": "sweep-post-cisd-close-2r",
+    "browser": "Verified real Yahoo response, three cards, independent sweep table, mobile width 390 with no page overflow, and report rendering",
+    "localReportLinks": 4,
+    "reportSha256": "54684893863c4a667db58404006f2dd2096d3ce7fae70a45e398e9c084082377"
+  }
+}

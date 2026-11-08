@@ -1,0 +1,36 @@
+{
+  "verifiedAt": "2026-11-08T10:45:52.746Z",
+  "tests": {
+    "command": "npm test",
+    "testFilesPassed": 9,
+    "testsPassed": 179,
+    "failed": 0
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0
+  },
+  "audit": {
+    "positions": 18048,
+    "failures": [],
+    "resultsHashVerified": true
+  },
+  "report": {
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "pageOverflow": false,
+    "tableScroll": true,
+    "localLinksExist": true,
+    "screenshots": [
+      "../../artifacts/full-rule-report-desktop.png",
+      "../../artifacts/full-rule-report-mobile.png"
+    ]
+  },
+  "scope": "Research comparison only; live dashboard still uses simplified strategy. No order execution."
+}

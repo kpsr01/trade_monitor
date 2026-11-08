@@ -1,0 +1,2043 @@
+{
+  "generatedAt": "2026-11-08T08:40:02.166Z",
+  "method": "Independent raw-minute lookups and arithmetic. No imports of indicator/backtest implementation. Carry bridges only weekends and explicitly verified holidays; no auction fills or forced close. Verifies all entry/C2/bracket/exit data, unresolved occupancy, open horizon status and summary metrics.",
+  "reportSha256": "a614e7160fb5346c3807ce7f481a5f6e7d6eef5ca3724608d3ee6300e9012c03",
+  "candleSha256": "ab500b8de206810a97eda0d66fe69c0e46fedd0233af6a879eb0ae9a559615b9",
+  "holidaySource": "https://nsearchives.nseindia.com/content/circulars/FAOP71777.pdf",
+  "failures": [],
+  "studies": [
+    {
+      "name": "fullPeriod",
+      "settings": {
+        "instrument": "^NSEI",
+        "testStart": 1791863100000,
+        "testEnd": 1793959200000,
+        "roundTripCostPoints": 0,
+        "executionEndMinutes": 915,
+        "nonTradingDates": [
+          "2026-10-20"
+        ]
+      },
+      "results": [
+        {
+          "pair": "60/5",
+          "checkedTrades": 1,
+          "metrics": {
+            "closedTrades": 0,
+            "wins": 0,
+            "losses": 0,
+            "breakeven": 0,
+            "winRate": null,
+            "totalR": 0,
+            "averageR": null,
+            "totalPoints": 0,
+            "maxDrawdownR": 0,
+            "profitFactorR": null,
+            "openTrades": 0,
+            "unresolvedTrades": 1,
+            "ambiguousTrades": 0
+          },
+          "observedCarryTrades": 1,
+          "closedOvernightTrades": 0,
+          "worstGapLoss": null,
+          "unclosed": [
+            {
+              "signalId": "^NSEI:60-5:1791863100000:bullish",
+              "status": "unresolved",
+              "entryTime": "2026-10-13 10:15:00 IST",
+              "exitTime": null,
+              "entry": 22558.900390625,
+              "stopLoss": 22288.69921875,
+              "target": 23099.302734375,
+              "exit": null,
+              "r": null,
+              "exitReason": "missing_candle",
+              "firstMissingMinute": "2026-10-15 11:45:00 IST",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-13",
+                  "to": "2026-10-14",
+                  "open": 22715.75
+                },
+                {
+                  "from": "2026-10-14",
+                  "to": "2026-10-15",
+                  "open": 22671.30078125
+                }
+              ]
+            }
+          ],
+          "sessionBridges": [
+            {
+              "from": "2026-10-13",
+              "to": "2026-10-14",
+              "open": 22715.75
+            },
+            {
+              "from": "2026-10-14",
+              "to": "2026-10-15",
+              "open": 22671.30078125
+            }
+          ],
+          "ledger": [
+            {
+              "signalId": "^NSEI:60-5:1791863100000:bullish",
+              "status": "unresolved",
+              "entryTime": "2026-10-13 10:15:00 IST",
+              "exitTime": null,
+              "entry": 22558.900390625,
+              "stopLoss": 22288.69921875,
+              "target": 23099.302734375,
+              "exit": null,
+              "r": null,
+              "exitReason": "missing_candle",
+              "firstMissingMinute": "2026-10-15 11:45:00 IST",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-13",
+                  "to": "2026-10-14",
+                  "open": 22715.75
+                },
+                {
+                  "from": "2026-10-14",
+                  "to": "2026-10-15",
+                  "open": 22671.30078125
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pair": "30/3",
+          "checkedTrades": 1,
+          "metrics": {
+            "closedTrades": 0,
+            "wins": 0,
+            "losses": 0,
+            "breakeven": 0,
+            "winRate": null,
+            "totalR": 0,
+            "averageR": null,
+            "totalPoints": 0,
+            "maxDrawdownR": 0,
+            "profitFactorR": null,
+            "openTrades": 0,
+            "unresolvedTrades": 1,
+            "ambiguousTrades": 0
+          },
+          "observedCarryTrades": 1,
+          "closedOvernightTrades": 0,
+          "worstGapLoss": null,
+          "unclosed": [
+            {
+              "signalId": "^NSEI:30-3:1791863100000:bullish",
+              "status": "unresolved",
+              "entryTime": "2026-10-13 09:45:00 IST",
+              "exitTime": null,
+              "entry": 22532.900390625,
+              "stopLoss": 22288.69921875,
+              "target": 23021.302734375,
+              "exit": null,
+              "r": null,
+              "exitReason": "missing_candle",
+              "firstMissingMinute": "2026-10-15 11:45:00 IST",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-13",
+                  "to": "2026-10-14",
+                  "open": 22715.75
+                },
+                {
+                  "from": "2026-10-14",
+                  "to": "2026-10-15",
+                  "open": 22671.30078125
+                }
+              ]
+            }
+          ],
+          "sessionBridges": [
+            {
+              "from": "2026-10-13",
+              "to": "2026-10-14",
+              "open": 22715.75
+            },
+            {
+              "from": "2026-10-14",
+              "to": "2026-10-15",
+              "open": 22671.30078125
+            }
+          ],
+          "ledger": [
+            {
+              "signalId": "^NSEI:30-3:1791863100000:bullish",
+              "status": "unresolved",
+              "entryTime": "2026-10-13 09:45:00 IST",
+              "exitTime": null,
+              "entry": 22532.900390625,
+              "stopLoss": 22288.69921875,
+              "target": 23021.302734375,
+              "exit": null,
+              "r": null,
+              "exitReason": "missing_candle",
+              "firstMissingMinute": "2026-10-15 11:45:00 IST",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-13",
+                  "to": "2026-10-14",
+                  "open": 22715.75
+                },
+                {
+                  "from": "2026-10-14",
+                  "to": "2026-10-15",
+                  "open": 22671.30078125
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "pair": "15/1",
+          "checkedTrades": 2,
+          "metrics": {
+            "closedTrades": 1,
+            "wins": 1,
+            "losses": 0,
+            "breakeven": 0,
+            "winRate": 1,
+            "totalR": 2,
+            "averageR": 2,
+            "totalPoints": 365.40234375,
+            "maxDrawdownR": 0,
+            "profitFactorR": null,
+            "openTrades": 0,
+            "unresolvedTrades": 1,
+            "ambiguousTrades": 0
+          },
+          "observedCarryTrades": 1,
+          "closedOvernightTrades": 1,
+          "worstGapLoss": null,
+          "unclosed": [
+            {
+              "signalId": "^NSEI:15-1:1792043100000:bullish",
+              "status": "unresolved",
+              "entryTime": "2026-10-15 11:30:00 IST",
+              "exitTime": null,
+              "entry": 22954.94921875,
+              "stopLoss": 22894.150390625,
+              "target": 23076.546875,
+              "exit": null,
+              "r": null,
+              "exitReason": "missing_candle",
+              "firstMissingMinute": "2026-10-15 11:45:00 IST",
+              "carriedSessionTransitions": []
+            }
+          ],
+          "sessionBridges": [
+            {
+              "from": "2026-10-13",
+              "to": "2026-10-14",
+              "open": 22715.75
+            },
+            {
+              "from": "2026-10-14",
+              "to": "2026-10-15",
+              "open": 22671.30078125
+            }
+          ],
+          "ledger": [
+            {
+              "signalId": "^NSEI:15-1:1791863100000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-13 09:30:00 IST",
+              "exitTime": "2026-10-15 09:55:00 IST",
+              "entry": 22471.400390625,
+              "stopLoss": 22288.69921875,
+              "target": 22836.802734375,
+              "exit": 22836.802734375,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-13",
+                  "to": "2026-10-14",
+                  "open": 22715.75
+                },
+                {
+                  "from": "2026-10-14",
+                  "to": "2026-10-15",
+                  "open": 22671.30078125
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:15-1:1792043100000:bullish",
+              "status": "unresolved",
+              "entryTime": "2026-10-15 11:30:00 IST",
+              "exitTime": null,
+              "entry": 22954.94921875,
+              "stopLoss": 22894.150390625,
+              "target": 23076.546875,
+              "exit": null,
+              "r": null,
+              "exitReason": "missing_candle",
+              "firstMissingMinute": "2026-10-15 11:45:00 IST",
+              "carriedSessionTransitions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "continuousStudy",
+      "settings": {
+        "instrument": "^NSEI",
+        "testStart": 1792122300000,
+        "testEnd": 1793959200000,
+        "roundTripCostPoints": 0,
+        "executionEndMinutes": 915,
+        "nonTradingDates": [
+          "2026-10-20"
+        ]
+      },
+      "results": [
+        {
+          "pair": "60/5",
+          "checkedTrades": 17,
+          "metrics": {
+            "closedTrades": 16,
+            "wins": 6,
+            "losses": 10,
+            "breakeven": 0,
+            "winRate": 0.375,
+            "totalR": 0.2690490558262071,
+            "averageR": 0.016815565989137943,
+            "totalPoints": -310.353515625,
+            "maxDrawdownR": 5,
+            "profitFactorR": 1.0229349740789626,
+            "openTrades": 1,
+            "unresolvedTrades": 0,
+            "ambiguousTrades": 0
+          },
+          "observedCarryTrades": 11,
+          "closedOvernightTrades": 11,
+          "worstGapLoss": {
+            "signalId": "^NSEI:60-5:1793601900000:bearish",
+            "status": "closed",
+            "entryTime": "2026-11-02 13:15:00 IST",
+            "exitTime": "2026-11-03 09:15:00 IST",
+            "entry": 23219.849609375,
+            "stopLoss": 23352.55078125,
+            "target": 22954.447265625,
+            "exit": 23582.25,
+            "r": -2.730950944173793,
+            "exitReason": "stop_gap",
+            "carriedSessionTransitions": [
+              {
+                "from": "2026-11-02",
+                "to": "2026-11-03",
+                "open": 23582.25
+              }
+            ]
+          },
+          "unclosed": [
+            {
+              "signalId": "^NSEI:60-5:1793936700000:bullish",
+              "status": "open",
+              "entryTime": "2026-11-06 10:15:00 IST",
+              "exitTime": null,
+              "entry": 24642.25,
+              "stopLoss": 24388.099609375,
+              "target": 25150.55078125,
+              "exit": null,
+              "r": null,
+              "exitReason": null,
+              "carriedSessionTransitions": []
+            }
+          ],
+          "sessionBridges": [
+            {
+              "from": "2026-10-16",
+              "to": "2026-10-19",
+              "open": 23150.849609375
+            },
+            {
+              "from": "2026-10-19",
+              "to": "2026-10-21",
+              "open": 23016
+            },
+            {
+              "from": "2026-10-21",
+              "to": "2026-10-22",
+              "open": 22687.75
+            },
+            {
+              "from": "2026-10-22",
+              "to": "2026-10-23",
+              "open": 22742.19921875
+            },
+            {
+              "from": "2026-10-23",
+              "to": "2026-10-26",
+              "open": 22524.400390625
+            },
+            {
+              "from": "2026-10-26",
+              "to": "2026-10-27",
+              "open": 22707.55078125
+            },
+            {
+              "from": "2026-10-27",
+              "to": "2026-10-28",
+              "open": 22678
+            },
+            {
+              "from": "2026-10-28",
+              "to": "2026-10-29",
+              "open": 22690.650390625
+            },
+            {
+              "from": "2026-10-29",
+              "to": "2026-10-30",
+              "open": 22964.5
+            },
+            {
+              "from": "2026-11-02",
+              "to": "2026-11-03",
+              "open": 23582.25
+            },
+            {
+              "from": "2026-11-03",
+              "to": "2026-11-04",
+              "open": 23734.150390625
+            },
+            {
+              "from": "2026-11-04",
+              "to": "2026-11-05",
+              "open": 24378.05078125
+            }
+          ],
+          "ledger": [
+            {
+              "signalId": "^NSEI:60-5:1792122300000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-16 10:15:00 IST",
+              "exitTime": "2026-10-19 12:56:00 IST",
+              "entry": 23094.5,
+              "stopLoss": 22914.30078125,
+              "target": 23454.8984375,
+              "exit": 22914.30078125,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-16",
+                  "to": "2026-10-19",
+                  "open": 23150.849609375
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:60-5:1792399500000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-19 15:15:00 IST",
+              "exitTime": "2026-10-21 09:15:00 IST",
+              "entry": 22873.75,
+              "stopLoss": 22845.25,
+              "target": 22930.75,
+              "exit": 22930.75,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-19",
+                  "to": "2026-10-21",
+                  "open": 23016
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:60-5:1792572300000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-21 15:15:00 IST",
+              "exitTime": "2026-10-22 09:16:00 IST",
+              "entry": 22739.19921875,
+              "stopLoss": 22649.94921875,
+              "target": 22917.69921875,
+              "exit": 22649.94921875,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-21",
+                  "to": "2026-10-22",
+                  "open": 22687.75
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:60-5:1792651500000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-22 13:15:00 IST",
+              "exitTime": "2026-10-23 10:03:00 IST",
+              "entry": 22670.150390625,
+              "stopLoss": 22585.349609375,
+              "target": 22839.751953125,
+              "exit": 22585.349609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-22",
+                  "to": "2026-10-23",
+                  "open": 22742.19921875
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:60-5:1792727100000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-23 10:15:00 IST",
+              "exitTime": "2026-10-27 10:02:00 IST",
+              "entry": 22505.25,
+              "stopLoss": 22786.94921875,
+              "target": 21941.8515625,
+              "exit": 22786.94921875,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-23",
+                  "to": "2026-10-26",
+                  "open": 22524.400390625
+                },
+                {
+                  "from": "2026-10-26",
+                  "to": "2026-10-27",
+                  "open": 22707.55078125
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:60-5:1793072700000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-27 10:15:00 IST",
+              "exitTime": "2026-10-27 14:16:00 IST",
+              "entry": 22774,
+              "stopLoss": 22653.5,
+              "target": 23015,
+              "exit": 22653.5,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:60-5:1793090700000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-27 15:15:00 IST",
+              "exitTime": "2026-10-28 09:16:00 IST",
+              "entry": 22762,
+              "stopLoss": 22637.099609375,
+              "target": 23011.80078125,
+              "exit": 22637.099609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-27",
+                  "to": "2026-10-28",
+                  "open": 22678
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:60-5:1793162700000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-28 11:15:00 IST",
+              "exitTime": "2026-10-28 13:00:00 IST",
+              "entry": 22585.19921875,
+              "stopLoss": 22497.900390625,
+              "target": 22759.796875,
+              "exit": 22759.796875,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:60-5:1793177100000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-28 15:15:00 IST",
+              "exitTime": "2026-10-29 09:16:00 IST",
+              "entry": 22707.05078125,
+              "stopLoss": 22668.900390625,
+              "target": 22783.3515625,
+              "exit": 22668.900390625,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-28",
+                  "to": "2026-10-29",
+                  "open": 22690.650390625
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:60-5:1793245500000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-29 10:15:00 IST",
+              "exitTime": "2026-10-30 11:35:00 IST",
+              "entry": 22786.94921875,
+              "stopLoss": 22656.849609375,
+              "target": 23047.1484375,
+              "exit": 23047.1484375,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-29",
+                  "to": "2026-10-30",
+                  "open": 22964.5
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:60-5:1793342700000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-30 13:15:00 IST",
+              "exitTime": "2026-10-30 13:30:00 IST",
+              "entry": 23096.80078125,
+              "stopLoss": 23118,
+              "target": 23054.40234375,
+              "exit": 23054.40234375,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:60-5:1793598300000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-02 12:15:00 IST",
+              "exitTime": "2026-11-02 12:55:00 IST",
+              "entry": 23335.55078125,
+              "stopLoss": 23282.099609375,
+              "target": 23442.453125,
+              "exit": 23282.099609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:60-5:1793601900000:bearish",
+              "status": "closed",
+              "entryTime": "2026-11-02 13:15:00 IST",
+              "exitTime": "2026-11-03 09:15:00 IST",
+              "entry": 23219.849609375,
+              "stopLoss": 23352.55078125,
+              "target": 22954.447265625,
+              "exit": 23582.25,
+              "r": -2.730950944173793,
+              "exitReason": "stop_gap",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-11-02",
+                  "to": "2026-11-03",
+                  "open": 23582.25
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:60-5:1793684700000:bearish",
+              "status": "closed",
+              "entryTime": "2026-11-03 12:20:00 IST",
+              "exitTime": "2026-11-03 13:17:00 IST",
+              "entry": 23644.55078125,
+              "stopLoss": 23704.849609375,
+              "target": 23523.953125,
+              "exit": 23704.849609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:60-5:1793695500000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-03 15:15:00 IST",
+              "exitTime": "2026-11-04 09:18:00 IST",
+              "entry": 23729.80078125,
+              "stopLoss": 23671.099609375,
+              "target": 23847.203125,
+              "exit": 23847.203125,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-11-03",
+                  "to": "2026-11-04",
+                  "open": 23734.150390625
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:60-5:1793763900000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-04 10:15:00 IST",
+              "exitTime": "2026-11-05 09:15:00 IST",
+              "entry": 23917.650390625,
+              "stopLoss": 23700.80078125,
+              "target": 24351.349609375,
+              "exit": 24351.349609375,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-11-04",
+                  "to": "2026-11-05",
+                  "open": 24378.05078125
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:60-5:1793936700000:bullish",
+              "status": "open",
+              "entryTime": "2026-11-06 10:15:00 IST",
+              "exitTime": null,
+              "entry": 24642.25,
+              "stopLoss": 24388.099609375,
+              "target": 25150.55078125,
+              "exit": null,
+              "r": null,
+              "exitReason": null,
+              "carriedSessionTransitions": []
+            }
+          ]
+        },
+        {
+          "pair": "30/3",
+          "checkedTrades": 32,
+          "metrics": {
+            "closedTrades": 32,
+            "wins": 11,
+            "losses": 21,
+            "breakeven": 0,
+            "winRate": 0.34375,
+            "totalR": -4.768268356425011,
+            "averageR": -0.1490083861382816,
+            "totalPoints": 370.30078125,
+            "maxDrawdownR": 12.768268356425011,
+            "profitFactorR": 0.8218686284471399,
+            "openTrades": 0,
+            "unresolvedTrades": 0,
+            "ambiguousTrades": 0
+          },
+          "observedCarryTrades": 12,
+          "closedOvernightTrades": 12,
+          "worstGapLoss": {
+            "signalId": "^NSEI:30-3:1793349900000:bearish",
+            "status": "closed",
+            "entryTime": "2026-10-30 14:48:00 IST",
+            "exitTime": "2026-11-02 09:15:00 IST",
+            "entry": 23041.150390625,
+            "stopLoss": 23075,
+            "target": 22973.451171875,
+            "exit": 23222.30078125,
+            "r": -5.351624257111534,
+            "exitReason": "stop_gap",
+            "carriedSessionTransitions": [
+              {
+                "from": "2026-10-30",
+                "to": "2026-11-02",
+                "open": 23222.30078125
+              }
+            ]
+          },
+          "unclosed": [],
+          "sessionBridges": [
+            {
+              "from": "2026-10-16",
+              "to": "2026-10-19",
+              "open": 23150.849609375
+            },
+            {
+              "from": "2026-10-19",
+              "to": "2026-10-21",
+              "open": 23016
+            },
+            {
+              "from": "2026-10-21",
+              "to": "2026-10-22",
+              "open": 22687.75
+            },
+            {
+              "from": "2026-10-22",
+              "to": "2026-10-23",
+              "open": 22742.19921875
+            },
+            {
+              "from": "2026-10-26",
+              "to": "2026-10-27",
+              "open": 22707.55078125
+            },
+            {
+              "from": "2026-10-27",
+              "to": "2026-10-28",
+              "open": 22678
+            },
+            {
+              "from": "2026-10-28",
+              "to": "2026-10-29",
+              "open": 22690.650390625
+            },
+            {
+              "from": "2026-10-30",
+              "to": "2026-11-02",
+              "open": 23222.30078125
+            },
+            {
+              "from": "2026-11-02",
+              "to": "2026-11-03",
+              "open": 23582.25
+            },
+            {
+              "from": "2026-11-03",
+              "to": "2026-11-04",
+              "open": 23734.150390625
+            },
+            {
+              "from": "2026-11-04",
+              "to": "2026-11-05",
+              "open": 24378.05078125
+            },
+            {
+              "from": "2026-11-05",
+              "to": "2026-11-06",
+              "open": 24518.19921875
+            }
+          ],
+          "ledger": [
+            {
+              "signalId": "^NSEI:30-3:1792122300000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-16 09:45:00 IST",
+              "exitTime": "2026-10-16 10:13:00 IST",
+              "entry": 22974.30078125,
+              "stopLoss": 23076.099609375,
+              "target": 22770.703125,
+              "exit": 23076.099609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1792133100000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-16 13:00:00 IST",
+              "exitTime": "2026-10-16 13:23:00 IST",
+              "entry": 23096.80078125,
+              "stopLoss": 23140.80078125,
+              "target": 23008.80078125,
+              "exit": 23140.80078125,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1792136700000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-16 14:03:00 IST",
+              "exitTime": "2026-10-19 09:15:00 IST",
+              "entry": 23112.900390625,
+              "stopLoss": 23141.55078125,
+              "target": 23055.599609375,
+              "exit": 23150.849609375,
+              "r": -1.3245620014997614,
+              "exitReason": "stop_gap",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-16",
+                  "to": "2026-10-19",
+                  "open": 23150.849609375
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:30-3:1792394100000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-19 13:18:00 IST",
+              "exitTime": "2026-10-21 09:15:00 IST",
+              "entry": 22911.05078125,
+              "stopLoss": 22961.25,
+              "target": 22810.65234375,
+              "exit": 23016,
+              "r": -2.0906544237802507,
+              "exitReason": "stop_gap",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-19",
+                  "to": "2026-10-21",
+                  "open": 23016
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:30-3:1792572300000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-21 14:45:00 IST",
+              "exitTime": "2026-10-21 14:47:00 IST",
+              "entry": 22674.69921875,
+              "stopLoss": 22663.05078125,
+              "target": 22697.99609375,
+              "exit": 22663.05078125,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1792574100000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-21 15:15:00 IST",
+              "exitTime": "2026-10-22 09:16:00 IST",
+              "entry": 22739.19921875,
+              "stopLoss": 22649.94921875,
+              "target": 22917.69921875,
+              "exit": 22649.94921875,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-21",
+                  "to": "2026-10-22",
+                  "open": 22687.75
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:30-3:1792651500000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-22 12:45:00 IST",
+              "exitTime": "2026-10-22 12:54:00 IST",
+              "entry": 22621.44921875,
+              "stopLoss": 22585.349609375,
+              "target": 22693.6484375,
+              "exit": 22693.6484375,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1792655100000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-22 14:36:00 IST",
+              "exitTime": "2026-10-23 10:01:00 IST",
+              "entry": 22672.55078125,
+              "stopLoss": 22601.69921875,
+              "target": 22814.25390625,
+              "exit": 22601.69921875,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-22",
+                  "to": "2026-10-23",
+                  "open": 22742.19921875
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:30-3:1792732500000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-23 11:21:00 IST",
+              "exitTime": "2026-10-23 11:58:00 IST",
+              "entry": 22505.650390625,
+              "stopLoss": 22424.150390625,
+              "target": 22668.650390625,
+              "exit": 22424.150390625,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1792737900000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-23 12:45:00 IST",
+              "exitTime": "2026-10-23 12:46:00 IST",
+              "entry": 22409.69921875,
+              "stopLoss": 22407.55078125,
+              "target": 22413.99609375,
+              "exit": 22407.55078125,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1792997100000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-26 12:45:00 IST",
+              "exitTime": "2026-10-26 13:20:00 IST",
+              "entry": 22590.30078125,
+              "stopLoss": 22636.69921875,
+              "target": 22497.50390625,
+              "exit": 22636.69921875,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1792998900000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-26 13:21:00 IST",
+              "exitTime": "2026-10-27 10:02:00 IST",
+              "entry": 22642.900390625,
+              "stopLoss": 22568.400390625,
+              "target": 22791.900390625,
+              "exit": 22791.900390625,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-26",
+                  "to": "2026-10-27",
+                  "open": 22707.55078125
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:30-3:1793078100000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-27 11:15:00 IST",
+              "exitTime": "2026-10-27 12:38:00 IST",
+              "entry": 22749.94921875,
+              "stopLoss": 22784.150390625,
+              "target": 22681.546875,
+              "exit": 22784.19921875,
+              "r": -1.0014276740334647,
+              "exitReason": "stop_gap",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1793083500000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-27 12:45:00 IST",
+              "exitTime": "2026-10-27 13:09:00 IST",
+              "entry": 22819,
+              "stopLoss": 22740.30078125,
+              "target": 22976.3984375,
+              "exit": 22740.30078125,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1793087100000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-27 13:45:00 IST",
+              "exitTime": "2026-10-27 14:04:00 IST",
+              "entry": 22702.900390625,
+              "stopLoss": 22677.94921875,
+              "target": 22752.802734375,
+              "exit": 22677.94921875,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1793090700000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-27 14:45:00 IST",
+              "exitTime": "2026-10-28 09:16:00 IST",
+              "entry": 22721.94921875,
+              "stopLoss": 22637.099609375,
+              "target": 22891.6484375,
+              "exit": 22637.099609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-27",
+                  "to": "2026-10-28",
+                  "open": 22678
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:30-3:1793162700000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-28 10:45:00 IST",
+              "exitTime": "2026-10-28 11:26:00 IST",
+              "entry": 22539.44921875,
+              "stopLoss": 22497.900390625,
+              "target": 22622.546875,
+              "exit": 22622.546875,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1793175300000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-28 14:15:00 IST",
+              "exitTime": "2026-10-29 09:27:00 IST",
+              "entry": 22706.650390625,
+              "stopLoss": 22742.05078125,
+              "target": 22635.849609375,
+              "exit": 22742.05078125,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-28",
+                  "to": "2026-10-29",
+                  "open": 22690.650390625
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:30-3:1793245500000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-29 09:45:00 IST",
+              "exitTime": "2026-10-29 14:05:00 IST",
+              "entry": 22740.75,
+              "stopLoss": 22656.849609375,
+              "target": 22908.55078125,
+              "exit": 22908.55078125,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1793331900000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-30 09:45:00 IST",
+              "exitTime": "2026-10-30 10:17:00 IST",
+              "entry": 22962,
+              "stopLoss": 22919.900390625,
+              "target": 23046.19921875,
+              "exit": 22919.900390625,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1793335500000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-30 10:45:00 IST",
+              "exitTime": "2026-10-30 11:39:00 IST",
+              "entry": 22955.69921875,
+              "stopLoss": 22905.099609375,
+              "target": 23056.8984375,
+              "exit": 23056.8984375,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1793344500000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-30 13:15:00 IST",
+              "exitTime": "2026-10-30 13:30:00 IST",
+              "entry": 23096.80078125,
+              "stopLoss": 23118,
+              "target": 23054.40234375,
+              "exit": 23054.40234375,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1793349900000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-30 14:48:00 IST",
+              "exitTime": "2026-11-02 09:15:00 IST",
+              "entry": 23041.150390625,
+              "stopLoss": 23075,
+              "target": 22973.451171875,
+              "exit": 23222.30078125,
+              "r": -5.351624257111534,
+              "exitReason": "stop_gap",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-30",
+                  "to": "2026-11-02",
+                  "open": 23222.30078125
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:30-3:1793594700000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-02 10:45:00 IST",
+              "exitTime": "2026-11-02 11:52:00 IST",
+              "entry": 23348.5,
+              "stopLoss": 23287.30078125,
+              "target": 23470.8984375,
+              "exit": 23287.30078125,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1793600100000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-02 12:15:00 IST",
+              "exitTime": "2026-11-02 12:55:00 IST",
+              "entry": 23335.55078125,
+              "stopLoss": 23282.099609375,
+              "target": 23442.453125,
+              "exit": 23282.099609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1793605500000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-02 14:18:00 IST",
+              "exitTime": "2026-11-03 09:15:00 IST",
+              "entry": 23279.80078125,
+              "stopLoss": 23207.05078125,
+              "target": 23425.30078125,
+              "exit": 23425.30078125,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-11-02",
+                  "to": "2026-11-03",
+                  "open": 23582.25
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:30-3:1793682900000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-03 11:15:00 IST",
+              "exitTime": "2026-11-03 11:22:00 IST",
+              "entry": 23635.650390625,
+              "stopLoss": 23626,
+              "target": 23654.951171875,
+              "exit": 23654.951171875,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1793686500000:bearish",
+              "status": "closed",
+              "entryTime": "2026-11-03 12:15:00 IST",
+              "exitTime": "2026-11-03 13:17:00 IST",
+              "entry": 23663.94921875,
+              "stopLoss": 23704.849609375,
+              "target": 23582.1484375,
+              "exit": 23704.849609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:30-3:1793695500000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-03 14:45:00 IST",
+              "exitTime": "2026-11-04 09:16:00 IST",
+              "entry": 23710.650390625,
+              "stopLoss": 23671.099609375,
+              "target": 23789.751953125,
+              "exit": 23789.751953125,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-11-03",
+                  "to": "2026-11-04",
+                  "open": 23734.150390625
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:30-3:1793763900000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-04 09:45:00 IST",
+              "exitTime": "2026-11-05 09:15:00 IST",
+              "entry": 23917.849609375,
+              "stopLoss": 23700.80078125,
+              "target": 24351.947265625,
+              "exit": 24351.947265625,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-11-04",
+                  "to": "2026-11-05",
+                  "open": 24378.05078125
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:30-3:1793868300000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-05 14:51:00 IST",
+              "exitTime": "2026-11-06 09:16:00 IST",
+              "entry": 24567,
+              "stopLoss": 24500.55078125,
+              "target": 24699.8984375,
+              "exit": 24500.55078125,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-11-05",
+                  "to": "2026-11-06",
+                  "open": 24518.19921875
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:30-3:1793936700000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-06 09:45:00 IST",
+              "exitTime": "2026-11-06 15:09:00 IST",
+              "entry": 24573.349609375,
+              "stopLoss": 24388.099609375,
+              "target": 24943.849609375,
+              "exit": 24943.849609375,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            }
+          ]
+        },
+        {
+          "pair": "15/1",
+          "checkedTrades": 42,
+          "metrics": {
+            "closedTrades": 42,
+            "wins": 17,
+            "losses": 25,
+            "breakeven": 0,
+            "winRate": 0.40476190476190477,
+            "totalR": 8.979674473997619,
+            "averageR": 0.21380177319041951,
+            "totalPoints": 804.900390625,
+            "maxDrawdownR": 5.020325526002382,
+            "profitFactorR": 1.3588951896195551,
+            "openTrades": 0,
+            "unresolvedTrades": 0,
+            "ambiguousTrades": 0
+          },
+          "observedCarryTrades": 12,
+          "closedOvernightTrades": 12,
+          "worstGapLoss": {
+            "signalId": "^NSEI:15-1:1792126800000:bearish",
+            "status": "closed",
+            "entryTime": "2026-10-16 10:45:00 IST",
+            "exitTime": "2026-10-19 09:15:00 IST",
+            "entry": 23100.650390625,
+            "stopLoss": 23149.849609375,
+            "target": 23002.251953125,
+            "exit": 23150.849609375,
+            "r": -1.0203255260023818,
+            "exitReason": "stop_gap",
+            "carriedSessionTransitions": [
+              {
+                "from": "2026-10-16",
+                "to": "2026-10-19",
+                "open": 23150.849609375
+              }
+            ]
+          },
+          "unclosed": [],
+          "sessionBridges": [
+            {
+              "from": "2026-10-16",
+              "to": "2026-10-19",
+              "open": 23150.849609375
+            },
+            {
+              "from": "2026-10-19",
+              "to": "2026-10-21",
+              "open": 23016
+            },
+            {
+              "from": "2026-10-21",
+              "to": "2026-10-22",
+              "open": 22687.75
+            },
+            {
+              "from": "2026-10-22",
+              "to": "2026-10-23",
+              "open": 22742.19921875
+            },
+            {
+              "from": "2026-10-23",
+              "to": "2026-10-26",
+              "open": 22524.400390625
+            },
+            {
+              "from": "2026-10-26",
+              "to": "2026-10-27",
+              "open": 22707.55078125
+            },
+            {
+              "from": "2026-10-27",
+              "to": "2026-10-28",
+              "open": 22678
+            },
+            {
+              "from": "2026-10-28",
+              "to": "2026-10-29",
+              "open": 22690.650390625
+            },
+            {
+              "from": "2026-10-30",
+              "to": "2026-11-02",
+              "open": 23222.30078125
+            },
+            {
+              "from": "2026-11-02",
+              "to": "2026-11-03",
+              "open": 23582.25
+            },
+            {
+              "from": "2026-11-03",
+              "to": "2026-11-04",
+              "open": 23734.150390625
+            },
+            {
+              "from": "2026-11-04",
+              "to": "2026-11-05",
+              "open": 24378.05078125
+            },
+            {
+              "from": "2026-11-05",
+              "to": "2026-11-06",
+              "open": 24518.19921875
+            }
+          ],
+          "ledger": [
+            {
+              "signalId": "^NSEI:15-1:1792122300000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-16 09:32:00 IST",
+              "exitTime": "2026-10-16 10:13:00 IST",
+              "entry": 22938.44921875,
+              "stopLoss": 23076.099609375,
+              "target": 22663.1484375,
+              "exit": 23076.099609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1792126800000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-16 10:45:00 IST",
+              "exitTime": "2026-10-19 09:15:00 IST",
+              "entry": 23100.650390625,
+              "stopLoss": 23149.849609375,
+              "target": 23002.251953125,
+              "exit": 23150.849609375,
+              "r": -1.0203255260023818,
+              "exitReason": "stop_gap",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-16",
+                  "to": "2026-10-19",
+                  "open": 23150.849609375
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:15-1:1792381500000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-19 09:30:00 IST",
+              "exitTime": "2026-10-22 09:16:00 IST",
+              "entry": 22981.900390625,
+              "stopLoss": 23175.099609375,
+              "target": 22595.501953125,
+              "exit": 22595.501953125,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-19",
+                  "to": "2026-10-21",
+                  "open": 23016
+                },
+                {
+                  "from": "2026-10-21",
+                  "to": "2026-10-22",
+                  "open": 22687.75
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:15-1:1792641600000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-22 09:45:00 IST",
+              "exitTime": "2026-10-23 10:05:00 IST",
+              "entry": 22647.150390625,
+              "stopLoss": 22555.099609375,
+              "target": 22831.251953125,
+              "exit": 22555.099609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-22",
+                  "to": "2026-10-23",
+                  "open": 22742.19921875
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:15-1:1792730700000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-23 10:30:00 IST",
+              "exitTime": "2026-10-23 10:39:00 IST",
+              "entry": 22516.69921875,
+              "stopLoss": 22459.25,
+              "target": 22631.59765625,
+              "exit": 22459.25,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1792731600000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-23 10:45:00 IST",
+              "exitTime": "2026-10-23 10:57:00 IST",
+              "entry": 22503.5,
+              "stopLoss": 22454.599609375,
+              "target": 22601.30078125,
+              "exit": 22454.599609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1792733400000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-23 11:15:00 IST",
+              "exitTime": "2026-10-23 11:58:00 IST",
+              "entry": 22479.25,
+              "stopLoss": 22424.150390625,
+              "target": 22589.44921875,
+              "exit": 22424.150390625,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1792737000000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-23 12:15:00 IST",
+              "exitTime": "2026-10-23 12:42:00 IST",
+              "entry": 22443.80078125,
+              "stopLoss": 22409.55078125,
+              "target": 22512.30078125,
+              "exit": 22409.55078125,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1792739700000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-23 13:00:00 IST",
+              "exitTime": "2026-10-23 13:41:00 IST",
+              "entry": 22424.05078125,
+              "stopLoss": 22372.150390625,
+              "target": 22527.8515625,
+              "exit": 22527.8515625,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1792743300000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-23 14:00:00 IST",
+              "exitTime": "2026-10-26 09:57:00 IST",
+              "entry": 22520.599609375,
+              "stopLoss": 22593,
+              "target": 22375.798828125,
+              "exit": 22593,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-23",
+                  "to": "2026-10-26",
+                  "open": 22524.400390625
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:15-1:1792994400000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-26 12:01:00 IST",
+              "exitTime": "2026-10-27 09:44:00 IST",
+              "entry": 22600.5,
+              "stopLoss": 22523.599609375,
+              "target": 22754.30078125,
+              "exit": 22754.30078125,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-26",
+                  "to": "2026-10-27",
+                  "open": 22707.55078125
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:15-1:1793078100000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-27 11:00:00 IST",
+              "exitTime": "2026-10-27 11:12:00 IST",
+              "entry": 22770.5,
+              "stopLoss": 22784.150390625,
+              "target": 22743.19921875,
+              "exit": 22743.19921875,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793079900000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-27 11:30:00 IST",
+              "exitTime": "2026-10-27 12:43:00 IST",
+              "entry": 22749.80078125,
+              "stopLoss": 22719.099609375,
+              "target": 22811.203125,
+              "exit": 22811.203125,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793088000000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-27 13:45:00 IST",
+              "exitTime": "2026-10-27 14:04:00 IST",
+              "entry": 22702.900390625,
+              "stopLoss": 22677.94921875,
+              "target": 22752.802734375,
+              "exit": 22677.94921875,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793090700000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-27 14:32:00 IST",
+              "exitTime": "2026-10-28 09:16:00 IST",
+              "entry": 22688.849609375,
+              "stopLoss": 22637.099609375,
+              "target": 22792.349609375,
+              "exit": 22637.099609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-27",
+                  "to": "2026-10-28",
+                  "open": 22678
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:15-1:1793160000000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-28 09:45:00 IST",
+              "exitTime": "2026-10-28 10:07:00 IST",
+              "entry": 22606.349609375,
+              "stopLoss": 22540.75,
+              "target": 22737.548828125,
+              "exit": 22540.75,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793167200000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-28 11:46:00 IST",
+              "exitTime": "2026-10-28 11:58:00 IST",
+              "entry": 22606.69921875,
+              "stopLoss": 22638.80078125,
+              "target": 22542.49609375,
+              "exit": 22638.80078125,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793168100000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-28 12:00:00 IST",
+              "exitTime": "2026-10-28 12:46:00 IST",
+              "entry": 22633.69921875,
+              "stopLoss": 22600.55078125,
+              "target": 22699.99609375,
+              "exit": 22699.99609375,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793172600000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-28 13:19:00 IST",
+              "exitTime": "2026-10-29 10:08:00 IST",
+              "entry": 22707.900390625,
+              "stopLoss": 22777.849609375,
+              "target": 22568.001953125,
+              "exit": 22777.849609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-28",
+                  "to": "2026-10-29",
+                  "open": 22690.650390625
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:15-1:1793251800000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-29 11:15:00 IST",
+              "exitTime": "2026-10-29 12:49:00 IST",
+              "entry": 22836.75,
+              "stopLoss": 22808.69921875,
+              "target": 22892.8515625,
+              "exit": 22808.69921875,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793258100000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-29 13:00:00 IST",
+              "exitTime": "2026-10-29 13:55:00 IST",
+              "entry": 22830.30078125,
+              "stopLoss": 22799.349609375,
+              "target": 22892.203125,
+              "exit": 22892.203125,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793262600000:bearish",
+              "status": "closed",
+              "entryTime": "2026-10-29 14:15:00 IST",
+              "exitTime": "2026-10-29 14:24:00 IST",
+              "entry": 22889.94921875,
+              "stopLoss": 22908.75,
+              "target": 22852.34765625,
+              "exit": 22908.75,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793331900000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-30 09:30:00 IST",
+              "exitTime": "2026-10-30 10:17:00 IST",
+              "entry": 22963.5,
+              "stopLoss": 22919.900390625,
+              "target": 23050.69921875,
+              "exit": 22919.900390625,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793335500000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-30 10:30:00 IST",
+              "exitTime": "2026-10-30 10:57:00 IST",
+              "entry": 22927.650390625,
+              "stopLoss": 22905.099609375,
+              "target": 22972.751953125,
+              "exit": 22972.751953125,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793345400000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-30 13:15:00 IST",
+              "exitTime": "2026-10-30 13:26:00 IST",
+              "entry": 23096.80078125,
+              "stopLoss": 23077.5,
+              "target": 23135.40234375,
+              "exit": 23077.5,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793349000000:bullish",
+              "status": "closed",
+              "entryTime": "2026-10-30 14:17:00 IST",
+              "exitTime": "2026-11-02 09:15:00 IST",
+              "entry": 23041.150390625,
+              "stopLoss": 23000.25,
+              "target": 23122.951171875,
+              "exit": 23122.951171875,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-10-30",
+                  "to": "2026-11-02",
+                  "open": 23222.30078125
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:15-1:1793592900000:bearish",
+              "status": "closed",
+              "entryTime": "2026-11-02 10:00:00 IST",
+              "exitTime": "2026-11-02 10:27:00 IST",
+              "entry": 23308.44921875,
+              "stopLoss": 23330.25,
+              "target": 23264.84765625,
+              "exit": 23330.25,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793596500000:bearish",
+              "status": "closed",
+              "entryTime": "2026-11-02 11:00:00 IST",
+              "exitTime": "2026-11-02 13:06:00 IST",
+              "entry": 23326.849609375,
+              "stopLoss": 23360.19921875,
+              "target": 23260.150390625,
+              "exit": 23260.150390625,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793605500000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-02 13:30:00 IST",
+              "exitTime": "2026-11-02 13:41:00 IST",
+              "entry": 23238.30078125,
+              "stopLoss": 23210.650390625,
+              "target": 23293.6015625,
+              "exit": 23210.650390625,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793606400000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-02 13:45:00 IST",
+              "exitTime": "2026-11-02 14:37:00 IST",
+              "entry": 23239.900390625,
+              "stopLoss": 23207.05078125,
+              "target": 23305.599609375,
+              "exit": 23305.599609375,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793611800000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-02 15:15:00 IST",
+              "exitTime": "2026-11-03 09:15:00 IST",
+              "entry": 23330.25,
+              "stopLoss": 23302.69921875,
+              "target": 23385.3515625,
+              "exit": 23385.3515625,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-11-02",
+                  "to": "2026-11-03",
+                  "open": 23582.25
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:15-1:1793679300000:bearish",
+              "status": "closed",
+              "entryTime": "2026-11-03 10:00:00 IST",
+              "exitTime": "2026-11-03 10:01:00 IST",
+              "entry": 23630.05078125,
+              "stopLoss": 23639.44921875,
+              "target": 23611.25390625,
+              "exit": 23639.44921875,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793680200000:bearish",
+              "status": "closed",
+              "entryTime": "2026-11-03 10:15:00 IST",
+              "exitTime": "2026-11-03 10:16:00 IST",
+              "entry": 23632.30078125,
+              "stopLoss": 23639.599609375,
+              "target": 23617.703125,
+              "exit": 23639.599609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793682000000:bearish",
+              "status": "closed",
+              "entryTime": "2026-11-03 11:05:00 IST",
+              "exitTime": "2026-11-03 11:47:00 IST",
+              "entry": 23639.94921875,
+              "stopLoss": 23675.099609375,
+              "target": 23569.6484375,
+              "exit": 23675.099609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793687400000:bearish",
+              "status": "closed",
+              "entryTime": "2026-11-03 12:15:00 IST",
+              "exitTime": "2026-11-03 13:17:00 IST",
+              "entry": 23663.94921875,
+              "stopLoss": 23704.849609375,
+              "target": 23582.1484375,
+              "exit": 23704.849609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793696400000:bearish",
+              "status": "closed",
+              "entryTime": "2026-11-03 14:45:00 IST",
+              "exitTime": "2026-11-03 14:47:00 IST",
+              "entry": 23710.650390625,
+              "stopLoss": 23719.099609375,
+              "target": 23693.751953125,
+              "exit": 23693.751953125,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793698200000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-03 15:15:00 IST",
+              "exitTime": "2026-11-04 09:17:00 IST",
+              "entry": 23729.80078125,
+              "stopLoss": 23684.900390625,
+              "target": 23819.6015625,
+              "exit": 23819.6015625,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-11-03",
+                  "to": "2026-11-04",
+                  "open": 23734.150390625
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:15-1:1793763900000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-04 09:30:00 IST",
+              "exitTime": "2026-11-05 09:53:00 IST",
+              "entry": 23942.150390625,
+              "stopLoss": 23700.80078125,
+              "target": 24424.849609375,
+              "exit": 24424.849609375,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-11-04",
+                  "to": "2026-11-05",
+                  "open": 24378.05078125
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:15-1:1793856600000:bearish",
+              "status": "closed",
+              "entryTime": "2026-11-05 11:15:00 IST",
+              "exitTime": "2026-11-05 11:20:00 IST",
+              "entry": 24369.400390625,
+              "stopLoss": 24383.30078125,
+              "target": 24341.599609375,
+              "exit": 24383.30078125,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793870100000:bearish",
+              "status": "closed",
+              "entryTime": "2026-11-05 15:00:00 IST",
+              "exitTime": "2026-11-06 09:16:00 IST",
+              "entry": 24554.849609375,
+              "stopLoss": 24576.099609375,
+              "target": 24512.349609375,
+              "exit": 24512.349609375,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": [
+                {
+                  "from": "2026-11-05",
+                  "to": "2026-11-06",
+                  "open": 24518.19921875
+                }
+              ]
+            },
+            {
+              "signalId": "^NSEI:15-1:1793941200000:bearish",
+              "status": "closed",
+              "entryTime": "2026-11-06 10:45:00 IST",
+              "exitTime": "2026-11-06 13:13:00 IST",
+              "entry": 24618.75,
+              "stopLoss": 24702.349609375,
+              "target": 24451.55078125,
+              "exit": 24702.349609375,
+              "r": -1,
+              "exitReason": "stop",
+              "carriedSessionTransitions": []
+            },
+            {
+              "signalId": "^NSEI:15-1:1793950200000:bullish",
+              "status": "closed",
+              "entryTime": "2026-11-06 13:15:00 IST",
+              "exitTime": "2026-11-06 14:33:00 IST",
+              "entry": 24716.80078125,
+              "stopLoss": 24647.05078125,
+              "target": 24856.30078125,
+              "exit": 24856.30078125,
+              "r": 2,
+              "exitReason": "target",
+              "carriedSessionTransitions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "generatedAt": "2026-11-08T09:33:01.240Z",
+  "sourceFile": "reports/deep-review-2026-11-08/before/indicator.ts",
+  "sourceSha256": "3985634a0305ed67e533c97e47662f15355ea4e16f46a065ce6c68668b0d2858",
+  "method": "Independent literal Pine run-level/reclaim series plus per-C2 causal C3/C4 lifecycle. No production imports in the reference model. Full event sets compared, including signals not traded. Not TradingView runtime parity.",
+  "referenceSha256": "03ecda0ed318792bae7a39c02822fe2cb738c662315d7af59aae87b2f74fbf06",
+  "differences": 4,
+  "results": [
+    {
+      "feed": "Technovus",
+      "higherMinutes": 60,
+      "lowerMinutes": 5,
+      "lowerBars": 19437,
+      "higherBars": 1814,
+      "c2Signals": 794,
+      "expectedEvents": 2868,
+      "actualEvents": 2868,
+      "dataSha256": "a8855fd641fe99f1e6c63877e54ff61cc9f910812a5f800efa7144a684226235",
+      "differences": []
+    },
+    {
+      "feed": "Technovus",
+      "higherMinutes": 30,
+      "lowerMinutes": 3,
+      "lowerBars": 32395,
+      "higherBars": 3369,
+      "c2Signals": 1571,
+      "expectedEvents": 5633,
+      "actualEvents": 5635,
+      "dataSha256": "a8855fd641fe99f1e6c63877e54ff61cc9f910812a5f800efa7144a684226235",
+      "differences": [
+        {
+          "id": "^NSEI:30-3:1744881300000:bearish:confirmed",
+          "expected": null,
+          "actual": {
+            "type": "confirmed",
+            "direction": "bearish",
+            "time": 1744884000000,
+            "availableAt": 1745207280000,
+            "price": 23843.85,
+            "reason": ""
+          }
+        },
+        {
+          "id": "^NSEI:30-3:1755162900000:bearish:confirmed",
+          "expected": null,
+          "actual": {
+            "type": "confirmed",
+            "direction": "bearish",
+            "time": 1755165600000,
+            "availableAt": 1755488880000,
+            "price": 24619.65,
+            "reason": ""
+          }
+        }
+      ]
+    },
+    {
+      "feed": "Technovus",
+      "higherMinutes": 15,
+      "lowerMinutes": 1,
+      "lowerBars": 97185,
+      "higherBars": 6479,
+      "c2Signals": 3126,
+      "expectedEvents": 11550,
+      "actualEvents": 11550,
+      "dataSha256": "a8855fd641fe99f1e6c63877e54ff61cc9f910812a5f800efa7144a684226235",
+      "differences": []
+    },
+    {
+      "feed": "Kaggle v18",
+      "higherMinutes": 60,
+      "lowerMinutes": 5,
+      "lowerBars": 19437,
+      "higherBars": 1814,
+      "c2Signals": 792,
+      "expectedEvents": 2860,
+      "actualEvents": 2860,
+      "dataSha256": "f6cc419ea3b3eb06c240888cf8704e667172690715aced2d689ebc2d0d046d63",
+      "differences": []
+    },
+    {
+      "feed": "Kaggle v18",
+      "higherMinutes": 30,
+      "lowerMinutes": 3,
+      "lowerBars": 32395,
+      "higherBars": 3369,
+      "c2Signals": 1570,
+      "expectedEvents": 5623,
+      "actualEvents": 5625,
+      "dataSha256": "f6cc419ea3b3eb06c240888cf8704e667172690715aced2d689ebc2d0d046d63",
+      "differences": [
+        {
+          "id": "^NSEI:30-3:1744881300000:bearish:confirmed",
+          "expected": null,
+          "actual": {
+            "type": "confirmed",
+            "direction": "bearish",
+            "time": 1744884000000,
+            "availableAt": 1745207280000,
+            "price": 23843.85,
+            "reason": ""
+          }
+        },
+        {
+          "id": "^NSEI:30-3:1755162900000:bearish:confirmed",
+          "expected": null,
+          "actual": {
+            "type": "confirmed",
+            "direction": "bearish",
+            "time": 1755165600000,
+            "availableAt": 1755488880000,
+            "price": 24619.65,
+            "reason": ""
+          }
+        }
+      ]
+    },
+    {
+      "feed": "Kaggle v18",
+      "higherMinutes": 15,
+      "lowerMinutes": 1,
+      "lowerBars": 97185,
+      "higherBars": 6479,
+      "c2Signals": 3123,
+      "expectedEvents": 11536,
+      "actualEvents": 11536,
+      "dataSha256": "f6cc419ea3b3eb06c240888cf8704e667172690715aced2d689ebc2d0d046d63",
+      "differences": []
+    }
+  ]
+}

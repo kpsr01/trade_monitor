@@ -1,0 +1,140 @@
+{
+  "generatedAt": "2026-11-08T09:39:39.760Z",
+  "method": "Root agent audit: independent raw-candle aggregation, complete C2 sweep-set reconciliation, exact stops, causal close/availability, every post-entry minute price path, gap fills, session exits, overlap, year-end open states and summary arithmetic. No indicator/simulator imports.",
+  "reportSha256": "bca31d2e329563bc3edaa4f2299d0440b18e7a1e6c895fdf0a59037f99c81b73",
+  "failures": [],
+  "audited": [
+    {
+      "feed": "Technovus",
+      "mode": "daily_exit",
+      "pair": "60/5",
+      "c2SignalsChecked": 794,
+      "tradesChecked": 328,
+      "closed": 328,
+      "open": 0,
+      "totalR": 10.441841827058129,
+      "maxDrawdownR": 12.041826252663244
+    },
+    {
+      "feed": "Technovus",
+      "mode": "carry",
+      "pair": "60/5",
+      "c2SignalsChecked": 794,
+      "tradesChecked": 221,
+      "closed": 220,
+      "open": 1,
+      "totalR": -18.946114262856494,
+      "maxDrawdownR": 40.38240418349884
+    },
+    {
+      "feed": "Technovus",
+      "mode": "daily_exit",
+      "pair": "30/3",
+      "c2SignalsChecked": 1571,
+      "tradesChecked": 475,
+      "closed": 475,
+      "open": 0,
+      "totalR": 19.460082255757285,
+      "maxDrawdownR": 24.36137941447074
+    },
+    {
+      "feed": "Technovus",
+      "mode": "carry",
+      "pair": "30/3",
+      "c2SignalsChecked": 1571,
+      "tradesChecked": 359,
+      "closed": 358,
+      "open": 1,
+      "totalR": -62.91130537334561,
+      "maxDrawdownR": 75.91130537334561
+    },
+    {
+      "feed": "Technovus",
+      "mode": "daily_exit",
+      "pair": "15/1",
+      "c2SignalsChecked": 3126,
+      "tradesChecked": 824,
+      "closed": 824,
+      "open": 0,
+      "totalR": -15.01443605763846,
+      "maxDrawdownR": 49.4863974798193
+    },
+    {
+      "feed": "Technovus",
+      "mode": "carry",
+      "pair": "15/1",
+      "c2SignalsChecked": 3126,
+      "tradesChecked": 780,
+      "closed": 780,
+      "open": 0,
+      "totalR": -135.3779955770028,
+      "maxDrawdownR": 153.1095339678098
+    },
+    {
+      "feed": "Kaggle v18",
+      "mode": "daily_exit",
+      "pair": "60/5",
+      "c2SignalsChecked": 792,
+      "tradesChecked": 328,
+      "closed": 328,
+      "open": 0,
+      "totalR": 9.34155485508135,
+      "maxDrawdownR": 12.775244398863071
+    },
+    {
+      "feed": "Kaggle v18",
+      "mode": "carry",
+      "pair": "60/5",
+      "c2SignalsChecked": 792,
+      "tradesChecked": 221,
+      "closed": 220,
+      "open": 1,
+      "totalR": -18.92194237386816,
+      "maxDrawdownR": 40.35823229451051
+    },
+    {
+      "feed": "Kaggle v18",
+      "mode": "daily_exit",
+      "pair": "30/3",
+      "c2SignalsChecked": 1570,
+      "tradesChecked": 474,
+      "closed": 474,
+      "open": 0,
+      "totalR": 25.52163938575444,
+      "maxDrawdownR": 24.424732893213857
+    },
+    {
+      "feed": "Kaggle v18",
+      "mode": "carry",
+      "pair": "30/3",
+      "c2SignalsChecked": 1570,
+      "tradesChecked": 357,
+      "closed": 356,
+      "open": 1,
+      "totalR": -47.61434919328475,
+      "maxDrawdownR": 60.61434919328475
+    },
+    {
+      "feed": "Kaggle v18",
+      "mode": "daily_exit",
+      "pair": "15/1",
+      "c2SignalsChecked": 3123,
+      "tradesChecked": 823,
+      "closed": 823,
+      "open": 0,
+      "totalR": -17.03781315409885,
+      "maxDrawdownR": 48.51629343874365
+    },
+    {
+      "feed": "Kaggle v18",
+      "mode": "carry",
+      "pair": "15/1",
+      "c2SignalsChecked": 3123,
+      "tradesChecked": 780,
+      "closed": 780,
+      "open": 0,
+      "totalR": -152.5163852962639,
+      "maxDrawdownR": 170.08814925098068
+    }
+  ]
+}
